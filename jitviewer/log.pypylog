@@ -1,0 +1,2619 @@
+[120481d0367ac] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657000 +0  4157415641554154415341524151415057565554535251504889E341BB404EF30041FFD34889DF4883E4F041BBB091D30041FFD3488D65D8415F415E415D415C5B5DC3
+[120481d04b58f] jit-backend-dump}
+[120481d04d2c2] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657043 +0  4157415641554154415341524151415057565554535251504889E341BBF04DF30041FFD34889DF4883E4F041BBB091D30041FFD3488D65D8415F415E415D415C5B5DC3
+[120481d04f1ab] jit-backend-dump}
+[120481d052d56] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657086 +0  4157415641554154415341524151415057565554535251504889E34881EC80000000F20F110424F20F114C2408F20F11542410F20F115C2418F20F11642420F20F116C2428F20F11742430F20F117C2438F2440F11442440F2440F114C2448F2440F11542450F2440F115C2458F2440F11642460F2440F116C2468F2440F11742470F2440F117C247841BB404EF30041FFD34889DF4883E4F041BBB091D30041FFD3488D65D8415F415E415D415C5B5DC3
+[120481d055f0b] jit-backend-dump}
+[120481d05a4ea] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657137 +0  4157415641554154415341524151415057565554535251504889E34881EC80000000F20F110424F20F114C2408F20F11542410F20F115C2418F20F11642420F20F116C2428F20F11742430F20F117C2438F2440F11442440F2440F114C2448F2440F11542450F2440F115C2458F2440F11642460F2440F116C2468F2440F11742470F2440F117C247841BBF04DF30041FFD34889DF4883E4F041BBB091D30041FFD3488D65D8415F415E415D415C5B5DC3
+[120481d05d46d] jit-backend-dump}
+[120481d062643] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657210 +0  41BB504DF30041FFD3B803000000488D65D8415F415E415D415C5B5DC3
+[120481d063d1d] jit-backend-dump}
+[120481d06bb94] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165722d +0  F20F11442410F20F114C2418F20F11542420F20F115C2428F20F11642430F20F116C2438F20F11742440F20F117C2448F2440F11442450F2440F114C2458F2440F11542460F2440F115C2468F2440F11642470F2440F116C2478F2440F11B42480000000F2440F11BC24880000004829C248894D804C894DA84C8955B048897D98488975904C8945A04889D741BB9063CF0041FFE3
+[120481d06e760] jit-backend-dump}
+[120481d076247] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16572c2 +0  488B4D804C8B4DA84C8B55B0488B7D98488B75904C8B45A0F20F10442410F20F104C2418F20F10542420F20F105C2428F20F10642430F20F106C2438F20F10742440F20F107C2448F2440F10442450F2440F104C2458F2440F10542460F2440F105C2468F2440F10642470F2440F106C2478F2440F10B42480000000F2440F10BC24880000004885C07409488B142530445601C349BB107265D1937F000041FFE3
+[120481d078ffb] jit-backend-dump}
+[120481d07bd64] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657363 +0  57565251415041514883EC40F20F110424F20F114C2408F20F11542410F20F115C2418F20F11642420F20F116C2428F20F11742430F20F117C24384889E741BB7009A90041FFD3488B04256069A0024885C0753CF20F107C2438F20F10742430F20F106C2428F20F10642420F20F105C2418F20F10542410F20F104C2408F20F1004244883C44041594158595A5E5FC341BBF04DF30041FFD3B8030000004883C478C3
+[120481d07e930] jit-backend-dump}
+[120481d07ff10] {jit-backend-counts
+[120481d080544] jit-backend-counts}
+[120481f8deec8] {jit-backend
+[120481ff13ee7] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657425 +0  488B04250068A0024829E0483B0425E05C5101760D49BB637365D1937F000041FFD3554889E5534154415541564157488DA50000000049BBD8104BD4937F00004D8B3B4983C70149BBD8104BD4937F00004D893B4C8B7F504C8B77784C0FB6AF960000004C8B67604C8B97800000004C8B4F584C8B4768498B5810498B5018498B4020498B48284D8B40304983FA010F85000000004883FB017206813BF82200000F85000000004983FD000F850000000049BBE09C79D1937F00004D39DE0F8500000000488B43084883F8020F8C000000004C8B770849BB908B77D1937F00004D39DE0F85000000004D8B6E1049BBA88B77D1937F00004D39DD0F85000000004883E8014889BD70FFFFFF4C898568FFFFFF4889B560FFFFFF48898558FFFFFF41BBC0E58C0041FFD3488B70404C8B40504D85C00F85000000004C8B40284983F8000F85000000004883BD58FFFFFF020F8C000000004C8B8558FFFFFF4983E8014983F8020F8C000000004C89C74983E8014983F8020F8C000000004C89C14983E8014983F8020F8D000000004D85E40F85000000004C8BA570FFFFFF498B742468488B042530445601488D5010483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700F822000041C68424950000000141F644240401741356504C89E74C89FE41BB7098C50041FFD3585E4D897C245041F644240401741D56504C89E749BBE09C79D1937F00004C89DE41BB7098C50041FFD3585E49BBE09C79D1937F00004D895C247841C68424960000000049C74424600000000049C78424800000000100000049C74424582B000000F64604017425F6460440751A50564889F7BE000000004889DA41BBD095C50041FFD35E58EB0540804EFF0148895E1048C746180000000048C746200000000048C746280000000048C746300000000048C74008080000004889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD329181C3C383530250C08000420030400000049BB007065D1937F000041FFD3181C0C3C38353008000420030500000049BB007065D1937F000041FFD335181C3C38300C000420030600000049BB007065D1937F000041FFD3181C383C300C000420030700000049BB007065D1937F000041FFD3181C0C3C300420030800000049BB007065D1937F000041FFD3181C383C300C0420030900000049BB007065D1937F000041FFD3181C34383C300C0420030A00000049BB007065D1937F000041FFD3181C383C300C0420030B00000049BB007065D1937F000041FFD3484000203C300C44184D15030C00000049BB007065D1937F000041FFD34840003C300C44184D15030D00000049BB007065D1937F000041FFD34840003C300C44184D15030E00000049BB007065D1937F000041FFD34840003C300C44184D15030F00000049BB007065D1937F000041FFD34840003C300C442115184D15031000000049BB007065D1937F000041FFD34840003C300C4421151D15184D15031100000049BB007065D1937F000041FFD34840003C300C44211505151D15184D15031200000049BB007065D1937F000041FFD34840303C0C0707070707070707070313000000
+[120481ffe6e96] jit-backend-dump}
+[120481ffe9ff3] {jit-backend-addr
+Loop 0 (<code object fib, file 'fibonacci.py', line 1> #0 LOAD_FAST) has address 7f93d165745b to 7f93d1657706 (bootstrap 7f93d1657425)
+[120481fff17ba] jit-backend-addr}
+[120481fff2e30] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657457 +0  D0FEFFFF
+[120481fff47c6] jit-backend-dump}
+[120481fff5be4] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16574b6 +0  4C020000
+[120481fff6cbc] jit-backend-dump}
+[120481fff748c] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16574c8 +0  59020000
+[120481fff8dd7] jit-backend-dump}
+[120481fff98e0] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16574d2 +0  6C020000
+[120481fffab62] jit-backend-dump}
+[120481fffb607] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16574e5 +0  75020000
+[120481fffc449] jit-backend-dump}
+[120481fffcd83] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16574f3 +0  82020000
+[120481fffdd49] jit-backend-dump}
+[120481fffe570] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165750a +0  84020000
+[120481ffff423] jit-backend-dump}
+[120481ffffd38] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657521 +0  87020000
+[1204820000b9f] jit-backend-dump}
+[12048200018c2] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165755b +0  82020000
+[12048200028c6] jit-backend-dump}
+[120482000324b] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657569 +0  91020000
+[1204820004349] jit-backend-dump}
+[1204820004b64] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657577 +0  9F020000
+[1204820005aa0] jit-backend-dump}
+[1204820006270] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165758c +0  C2020000
+[120482000713c] jit-backend-dump}
+[12048200078cd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165759d +0  CF020000
+[1204820008767] jit-backend-dump}
+[1204820008ea1] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16575ae +0  DE020000
+[1204820009e7f] jit-backend-dump}
+[120482000a594] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16575b7 +0  F7020000
+[120482000b6f6] jit-backend-dump}
+[120482000e702] jit-backend}
+[12048200189e6] {jit-log-opt-loop
+# Loop 0 (<code object fib, file 'fibonacci.py', line 1> #0 LOAD_FAST) : entry bridge with 237 ops
+[p0, p1]
++84: p2 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
++88: p3 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++92: i4 = getfield_gc(p0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++100: p5 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++104: i6 = getfield_gc(p0, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++111: i7 = getfield_gc(p0, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
++115: p8 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++119: p10 = getarrayitem_gc(p8, 0, descr=<ArrayP 8>)
++123: p12 = getarrayitem_gc(p8, 1, descr=<ArrayP 8>)
++127: p14 = getarrayitem_gc(p8, 2, descr=<ArrayP 8>)
++131: p16 = getarrayitem_gc(p8, 3, descr=<ArrayP 8>)
++135: p18 = getarrayitem_gc(p8, 4, descr=<ArrayP 8>)
++139: p19 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
++139: guard_value(i6, 1, descr=<Guard4>) [i6, p1, p0, p2, p3, i4, p5, i7, p10, p12, p14, p16, p18]
++149: guard_nonnull_class(p10, ConstClass(W_IntObject), descr=<Guard5>) [p1, p0, p10, p2, p3, i4, p5, p12, p14, p16, p18]
++167: guard_value(i4, 0, descr=<Guard6>) [i4, p1, p0, p2, p3, p5, p10, p14, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
++177: guard_value(p3, ConstPtr(ptr23), descr=<Guard7>) [p1, p0, p3, p2, p5, p10, p14, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++196: i24 = getfield_gc_pure(p10, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++200: i26 = int_lt(i24, 2)
+guard_false(i26, descr=<Guard8>) [p1, p0, p10, p2, p5, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
++210: p27 = getfield_gc(p0, descr=<FieldP pypy.interpreter.eval.Frame.inst_w_globals 8>)
++214: guard_value(p27, ConstPtr(ptr28), descr=<Guard9>) [p1, p0, p27, p2, p5, p10, p16, p18]
++233: p29 = getfield_gc(p27, descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++237: guard_value(p29, ConstPtr(ptr30), descr=<Guard10>) [p1, p0, p29, p27, p2, p5, p10, p16, p18]
++256: guard_not_invalidated(, descr=<Guard11>) [p1, p0, p27, p2, p5, p10, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++256: i32 = int_sub(i24, 1)
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++260: p34 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
++297: p35 = getfield_gc(p34, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++301: i36 = force_token()
++301: p37 = getfield_gc(p34, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++305: guard_isnull(p37, descr=<Guard12>) [p1, p0, p34, p37, p2, p5, p10, p18, p35, i32, i36]
++314: i38 = getfield_gc(p34, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++318: i39 = int_is_zero(i38)
+guard_true(i39, descr=<Guard13>) [p1, p0, p34, p2, p5, p10, p18, p35, i32, i36]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++328: i41 = int_lt(i32, 2)
+guard_false(i41, descr=<Guard14>) [p1, p0, p34, p2, p5, p10, p18, p35, i32, i36]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
++342: guard_not_invalidated(, descr=<Guard15>) [p1, p0, p34, p2, p5, p10, p18, p35, i32, i36]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++342: i43 = int_sub(i32, 1)
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++353: i44 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++353: i46 = int_lt(i43, 2)
+guard_false(i46, descr=<Guard16>) [p1, p0, p34, p2, p5, p10, p18, i43, i44, p35, i32, i36]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++363: i48 = int_sub(i43, 1)
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++370: i49 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++370: i51 = int_lt(i48, 2)
+guard_false(i51, descr=<Guard17>) [p1, p0, p34, p2, p5, p10, p18, i48, i49, i43, i44, p35, i32, i36]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++380: i53 = int_sub(i48, 1)
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++387: i54 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++387: i56 = int_lt(i53, 2)
+guard_true(i56, descr=<Guard18>) [p1, p0, p34, p2, p5, p10, p18, i53, i54, i48, i49, i43, i44, p35, i32, i36]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++397: i57 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++397: i58 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++397: i59 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++397: i60 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++397: i61 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++397: i62 = force_token()
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++397: i63 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++397: i64 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++397: i65 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++397: i66 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++397: guard_isnull(p5, descr=<Guard19>) [p1, p0, p5, p2, p10, None, None, None, None, None, None, None, None, None]
++406: p68 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++418: p69 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p71 = new_with_vtable(ConstClass(W_IntObject))
++481: setfield_gc(p0, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p0, p2, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p0, ConstPtr(ptr23), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++574: setfield_gc(p0, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++583: setfield_gc(p0, ConstPtr(ptr73), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++592: setfield_gc(p0, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++604: setfield_gc(p0, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p68, 0, p10, descr=<ArrayP 8>)
++660: setarrayitem_gc(p68, 1, ConstPtr(ptr78), descr=<ArrayP 8>)
++668: setarrayitem_gc(p68, 2, ConstPtr(ptr80), descr=<ArrayP 8>)
++676: setarrayitem_gc(p68, 3, ConstPtr(ptr82), descr=<ArrayP 8>)
++684: setarrayitem_gc(p68, 4, ConstPtr(ptr84), descr=<ArrayP 8>)
++692: setfield_gc(p71, 8, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++700: finish(p71, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++737: --end of the loop--
+[120482019fa4b] jit-log-opt-loop}
+[12048207f3348] {jit-backend
+[1204820842c48] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16578d2 +0  488DA50000000049BBF0104BD4937F00004D8B334983C60149BBF0104BD4937F00004D89334D85E40F85000000004C8B676840C6879500000001F64704017414415051574C89FE41BB7098C50041FFD35F5941584C897F50F6470401741E4150515749BBE09C79D1937F00004C89DE41BB7098C50041FFD35F59415849BBE09C79D1937F00004C895F7840C687960000000048C747600000000048C787800000000100000048C747580F00000041F644240401742A41F644240440751C4150514C89E7BE000000004889DA41BBD095C50041FFD3594158EB0641804C24FF0149895C241049C74424180000000049C74424200000000041F644240401742A41F644240440751C4150514C89E7BE030000004889CA41BBD095C50041FFD3594158EB0641804C24FF0149894C242841F644240401742841F644240440751A41504C89E7BE040000004C89C241BBD095C50041FFD34158EB0641804C24FF014D8944243049BBD0B47BD1937F00004C89D84889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD3181C303C0C04200314000000
+[120482084a792] jit-backend-dump}
+[120482084b10b] {jit-backend-addr
+bridge out of Guard 8 has address 7f93d16578d2 to 7f93d1657a66
+[120482084c1cb] jit-backend-addr}
+[120482084cc18] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16578d5 +0  70FFFFFF
+[1204820868d05] jit-backend-dump}
+[1204820869fc5] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16578fc +0  66010000
+[120482086af97] jit-backend-dump}
+[120482086bb4f] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16574f3 +0  DB030000
+[120482086ca34] jit-backend-dump}
+[120482086d6d9] jit-backend}
+[120482086e87a] {jit-log-opt-bridge
+# bridge out of Guard 8 with 19 ops
+[p0, p1, p2, p3, p4, p5, p6]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
++37: guard_isnull(p4, descr=<Guard20>) [p0, p1, p4, p3, p2, p5, p6]
++46: p7 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++50: p8 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
++50: setfield_gc(p1, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p1, p3, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p1, ConstPtr(ptr10), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++138: setfield_gc(p1, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++146: setfield_gc(p1, ConstPtr(ptr12), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++154: setfield_gc(p1, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++165: setfield_gc(p1, 15, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p7, 0, p2, descr=<ArrayP 8>)
++228: setarrayitem_gc(p7, 1, ConstPtr(ptr17), descr=<ArrayP 8>)
++237: setarrayitem_gc(p7, 2, ConstPtr(ptr19), descr=<ArrayP 8>)
+setarrayitem_gc(p7, 3, p5, descr=<ArrayP 8>)
+setarrayitem_gc(p7, 4, p6, descr=<ArrayP 8>)
++354: finish(ConstPtr(ptr22), descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++404: --end of the loop--
+[120482088766d] jit-log-opt-bridge}
+[12048216949bf] {jit-backend
+[1204821714728] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657a9d +0  488DA50000000049BB08114BD4937F00004D8B334983C60149BB08114BD4937F00004D89334C8B70504D85F60F85000000004C8B70284983FE000F85000000004C8BB570FFFFFF4D8B6E08F6400401741056504889C741BB7098C50041FFD3585E4889704049BB908B77D1937F00004D39DD0F8500000000498B751049BBA88B77D1937F00004C39DE0F85000000004883FB017206813BF82200000F85000000004C8B6B084983ED020F800000000041BBC0E58C0041FFD3488B70404C8B50504D85D20F85000000004C8B50284983FA000F85000000004983FD020F8D000000004D85E40F85000000004D8B6668488B042530445601488D5010483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700F822000041C686950000000141F64604017411504C89F74C89FE41BB7098C50041FFD3584D897E5041F6460401741B504C89F749BBE09C79D1937F00004C89DE41BB7098C50041FFD35849BBE09C79D1937F00004D895E7841C686960000000049C746600000000049C786800000000100000049C746582B00000041F644240401742641F6442404407518504C89E7BE000000004889DA41BBD095C50041FFD358EB0641804C24FF0149895C241049C74424180000000049C74424200000000049C74424280000000049C74424300000000048C74008020000004889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD3484000383C300C44184D15031500000049BB007065D1937F000041FFD34840003C300C44184D15031600000049BB007065D1937F000041FFD34838343C300C44070707031700000049BB007065D1937F000041FFD3483818343C300C44070707031800000049BB007065D1937F000041FFD34838343C300C44070707031900000049BB007065D1937F000041FFD348380C3C3044070707031A00000049BB007065D1937F000041FFD348380C353C30070707031B00000049BB007065D1937F000041FFD3483800283C300C153518070707031C00000049BB007065D1937F000041FFD34838003C300C153518070707031D00000049BB007065D1937F000041FFD34838003C300C153518070707031E00000049BB007065D1937F000041FFD34838303C0C070707070707031F000000
+[1204821723807] jit-backend-dump}
+[12048217242ea] {jit-backend-addr
+bridge out of Guard 14 has address 7f93d1657a9d to 7f93d1657cc5
+[1204821744aef] jit-backend-addr}
+[1204821745c83] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657aa0 +0  D0FEFFFF
+[120482174727c] jit-backend-dump}
+[1204821748611] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657acb +0  F6010000
+[12048217495ef] jit-backend-dump}
+[1204821749e0a] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657ad9 +0  05020000
+[120482174b073] jit-backend-dump}
+[120482174b9ba] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657b11 +0  E9010000
+[120482174c9d7] jit-backend-dump}
+[120482174d337] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657b28 +0  EE010000
+[120482174e28c] jit-backend-dump}
+[120482174edc7] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657b3a +0  15020000
+[120482174fc86] jit-backend-dump}
+[12048217505cd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657b48 +0  22020000
+[12048217513c4] jit-backend-dump}
+[1204821751b17] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657b62 +0  23020000
+[12048217529e2] jit-backend-dump}
+[120482175314e] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657b70 +0  34020000
+[12048217540c9] jit-backend-dump}
+[1204821754835] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657b7a +0  48020000
+[12048217556f4] jit-backend-dump}
+[1204821755e21] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657b83 +0  5D020000
+[1204821756bff] jit-backend-dump}
+[1204821757e04] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657577 +0  22050000
+[1204821758e08] jit-backend-dump}
+[120482175a04b] jit-backend}
+[120482175bd97] {jit-log-opt-bridge
+# bridge out of Guard 14 with 59 ops
+[p0, p1, p2, p3, p4, p5, p6, p7, i8, i9]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
++37: p10 = getfield_gc(p2, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++41: guard_isnull(p10, descr=<Guard21>) [p0, p1, p2, p10, p3, p4, p5, p6, p7, i8, i9]
++50: i11 = getfield_gc(p2, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++54: i12 = int_is_true(i11)
+guard_false(i12, descr=<Guard22>) [p0, p1, p2, p3, p4, p5, p6, p7, i8, i9]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++64: p13 = getfield_gc(p1, descr=<FieldP pypy.interpreter.eval.Frame.inst_w_globals 8>)
+setfield_gc(p2, p7, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++101: guard_value(p13, ConstPtr(ptr14), descr=<Guard23>) [p0, p1, p13, p3, p4, p5, p6, None, None, None]
++120: p16 = getfield_gc(p13, descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++124: guard_value(p16, ConstPtr(ptr17), descr=<Guard24>) [p0, p1, p16, p13, p3, p4, p5, p6, None, None, None]
++143: guard_not_invalidated(, descr=<Guard25>) [p0, p1, p13, p3, p4, p5, p6, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
++143: guard_nonnull_class(p5, ConstClass(W_IntObject), descr=<Guard26>) [p0, p1, p5, p3, p4, p6, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++161: i19 = getfield_gc_pure(p5, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++165: i21 = int_sub_ovf(i19, 2)
+guard_no_overflow(, descr=<Guard27>) [p0, p1, p5, i21, p3, p4, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++175: p23 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
++184: p24 = getfield_gc(p23, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++188: i25 = force_token()
++188: p26 = getfield_gc(p23, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++192: guard_isnull(p26, descr=<Guard28>) [p0, p1, p23, p26, p3, p4, p5, i25, i21, p24, None, None, None]
++201: i27 = getfield_gc(p23, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++205: i28 = int_is_zero(i27)
+guard_true(i28, descr=<Guard29>) [p0, p1, p23, p3, p4, p5, i25, i21, p24, None, None, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++215: i30 = int_lt(i21, 2)
+guard_true(i30, descr=<Guard30>) [p0, p1, p23, p3, p4, p5, i25, i21, p24, None, None, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++225: guard_isnull(p4, descr=<Guard31>) [p0, p1, p4, p3, p5, None, None, None, None, None, None]
++234: p31 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++238: p32 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p34 = new_with_vtable(ConstClass(W_IntObject))
++301: setfield_gc(p1, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p1, p3, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p1, ConstPtr(ptr36), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++385: setfield_gc(p1, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++393: setfield_gc(p1, ConstPtr(ptr38), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++401: setfield_gc(p1, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++412: setfield_gc(p1, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p31, 0, p5, descr=<ArrayP 8>)
++471: setarrayitem_gc(p31, 1, ConstPtr(ptr43), descr=<ArrayP 8>)
++480: setarrayitem_gc(p31, 2, ConstPtr(ptr45), descr=<ArrayP 8>)
++489: setarrayitem_gc(p31, 3, ConstPtr(ptr47), descr=<ArrayP 8>)
++498: setarrayitem_gc(p31, 4, ConstPtr(ptr49), descr=<ArrayP 8>)
++507: setfield_gc(p34, 2, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++515: finish(p34, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++552: --end of the loop--
+[1204821832e69] jit-log-opt-bridge}
+[120482334eabd] {jit-backend
+[120482342aedc] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657e2d +0  488DA50000000049BB20114BD4937F00004D8B334983C60149BB20114BD4937F00004D89334C8B70504D85F60F85000000004C8B70284983FE000F850000000049BBA08B77D1937F00004D8B0349BBA88B77D1937F00004D39D80F85000000004989F84883EF020F80000000004C898550FFFFFF48898548FFFFFF4889B540FFFFFF4889BD38FFFFFF41BBC0E58C0041FFD348898530FFFFFF488B042530445601488D5040483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700508A010048896808488B9548FFFFFFF6420401741350524889D74889C641BB7098C50041FFD35A5848894240488BBD30FFFFFF488B77404C8B47504D85C00F85000000004C8B47284983F8000F85000000004883BD38FFFFFF020F8D0000000048C74008FDFFFFFF488BB558FFFFFF4883EE020F80000000004883C01848C700508A010048896808F64204017417505657524889D74889C641BB7098C50041FFD35A5F5E58488942404C8B47404883FE020F8D000000004C8B8570FFFFFF498B70084C8BB540FFFFFFF6420401741B5256415050574889D74C89F641BB7098C50041FFD35F5841585E5A4C89724048C74008FDFFFFFF49BB908B77D1937F00004C39DE0F85000000004C8B761049BBA88B77D1937F00004D39DE0F85000000004883FB017206813BF82200000F8500000000488B73084883EE020F80000000004C8B77404883FE020F8C000000004889F24883EE014883FE020F8D000000004D85E40F85000000004D8B60684883C01848C700F822000041C680950000000141F640040174155041504C89C74C89FE41BB7098C50041FFD34158584D89785041F6400401741F5041504C89C749BBE09C79D1937F00004C89DE41BB7098C50041FFD341585849BBE09C79D1937F00004D89587841C680960000000049C740600000000049C780800000000100000049C740582B00000041F644240401742641F6442404407518504C89E7BE000000004889DA41BBD095C50041FFD358EB0641804C24FF0149895C241049C74424180000000049C74424200000000049C74424280000000049C74424300000000048C74008050000004889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD3484000383C300C444D1521151D1815032000000049BB007065D1937F000041FFD34840003C300C444D1521151D1815032100000049BB007065D1937F000041FFD3484000203C300C444D1507151D1807032200000049BB007065D1937F000041FFD34840003C300C444D1507151D1807032300000049BB007065D1937F000041FFD34840001D3C300C444D150715211807032400000049BB007065D1937F000041FFD34840081C20003C300C4415154D5D515818032500000049BB007065D1937F000041FFD34840081C003C300C4415154D5D515818032600000049BB007065D1937F000041FFD34840081C003C300C4415154D5D515818032700000049BB007065D1937F000041FFD34840083C300C4407154D07075807032800000049BB007065D1937F000041FFD3484008193C300C4407154D07075807032900000049BB007065D1937F000041FFD34840081C003C300C44154D195820032A00000049BB007065D1937F000041FFD34820183C300C440707070707032B00000049BB007065D1937F000041FFD3482038183C300C440707070707032C00000049BB007065D1937F000041FFD348200C3C30440707070707032D00000049BB007065D1937F000041FFD348200C193C300707070707032E00000049BB007065D1937F000041FFD348201C3C300C1519380707070707032F00000049BB007065D1937F000041FFD348201C3C300C19151509380707070707033000000049BB007065D1937F000041FFD34820303C0C070707070707070707070331000000
+[1204823496d53] jit-backend-dump}
+[1204823498484] {jit-backend-addr
+bridge out of Guard 17 has address 7f93d1657e2d to 7f93d165817b
+[120482349a57a] jit-backend-addr}
+[120482349b1a2] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657e30 +0  A0FEFFFF
+[120482349c511] jit-backend-dump}
+[120482349d353] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657e5b +0  1C030000
+[120482349e477] jit-backend-dump}
+[120482349ed0f] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657e69 +0  2F030000
+[120482349fbc1] jit-backend-dump}
+[12048234a0314] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657e89 +0  2F030000
+[12048234a1188] jit-backend-dump}
+[12048234a1c08] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657e96 +0  63030000
+[12048234a2ae0] jit-backend-dump}
+[12048234a3352] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657f41 +0  D9020000
+[12048234a4205] jit-backend-dump}
+[12048234a4958] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657f4f +0  EE020000
+[12048234a58eb] jit-backend-dump}
+[12048234a620d] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657f5d +0  02030000
+[12048234a709a] jit-backend-dump}
+[12048234a7fbd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657f76 +0  2B030000
+[12048234a8df2] jit-backend-dump}
+[12048234a955e] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1657fb4 +0  0E030000
+[12048234aa3d2] jit-backend-dump}
+[12048234aac13] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658006 +0  DC020000
+[12048234abb9a] jit-backend-dump}
+[12048234ac312] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165801d +0  E3020000
+[12048234ad122] jit-backend-dump}
+[12048234ad869] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165802f +0  F0020000
+[12048234ae773] jit-backend-dump}
+[12048234aef11] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165803d +0  FF020000
+[12048234afce2] jit-backend-dump}
+[12048234b0467] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165804b +0  0E030000
+[12048234b1239] jit-backend-dump}
+[12048234b19ca] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165805c +0  1D030000
+[12048234ba118] jit-backend-dump}
+[12048234bad98] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658065 +0  36030000
+[12048234bbc3e] jit-backend-dump}
+[12048234bc8d7] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165759d +0  8C080000
+[12048234bd838] jit-backend-dump}
+[12048234be729] jit-backend}
+[12048234c0682] {jit-log-opt-bridge
+# bridge out of Guard 17 with 135 ops
+[p0, p1, p2, p3, p4, p5, p6, i7, i8, i9, i10, p11, i12, i13]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
++37: p14 = getfield_gc(p2, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++41: guard_isnull(p14, descr=<Guard32>) [p0, p1, p2, p14, p3, p4, p5, p6, i12, i10, i7, i13, i9, p11, i8]
++50: i15 = getfield_gc(p2, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++54: i16 = int_is_true(i15)
+guard_false(i16, descr=<Guard33>) [p0, p1, p2, p3, p4, p5, p6, i12, i10, i7, i13, i9, p11, i8]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++64: p18 = getfield_gc(ConstPtr(ptr17), descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++77: guard_value(p18, ConstPtr(ptr19), descr=<Guard34>) [p0, p1, p2, p18, p3, p4, p5, p6, i12, i10, None, i13, i9, p11, None]
++96: guard_not_invalidated(, descr=<Guard35>) [p0, p1, p2, p3, p4, p5, p6, i12, i10, None, i13, i9, p11, None]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++96: i22 = int_sub_ovf(i9, 2)
+guard_no_overflow(, descr=<Guard36>) [p0, p1, p2, i22, p3, p4, p5, p6, i12, i10, None, i13, i9, p11, None]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++109: p24 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
+p26 = new_with_vtable(38645360)
++216: setfield_gc(p26, i10, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p26, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++256: p27 = getfield_gc(p24, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++267: i28 = force_token()
++267: p29 = getfield_gc(p24, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++271: guard_isnull(p29, descr=<Guard37>) [p0, p1, p2, p24, p29, p26, p3, p4, p5, p6, i28, i13, i12, i22, i9, p11, p27]
++280: i30 = getfield_gc(p24, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++284: i31 = int_is_zero(i30)
+guard_true(i31, descr=<Guard38>) [p0, p1, p2, p24, p26, p3, p4, p5, p6, i28, i13, i12, i22, i9, p11, p27]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++294: i33 = int_lt(i22, 2)
+guard_true(i33, descr=<Guard39>) [p0, p1, p2, p24, p26, p3, p4, p5, p6, i28, i13, i12, i22, i9, p11, p27]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++308: setfield_gc(p26, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++316: guard_not_invalidated(, descr=<Guard40>) [p0, p1, p2, p3, p4, p5, p6, None, i13, i12, None, None, p11, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++316: i36 = int_sub_ovf(i12, 2)
+guard_no_overflow(, descr=<Guard41>) [p0, p1, p2, i36, p3, p4, p5, p6, None, i13, i12, None, None, p11, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
+p37 = new_with_vtable(38645360)
++344: setfield_gc(p37, i13, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p37, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++381: p38 = getfield_gc(p24, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++385: i39 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++385: i41 = int_lt(i36, 2)
+guard_true(i41, descr=<Guard42>) [p0, p1, p2, p24, p37, p3, p4, p5, p6, i39, i12, i36, p11, p38]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++395: p42 = getfield_gc(p1, descr=<FieldP pypy.interpreter.eval.Frame.inst_w_globals 8>)
+setfield_gc(p2, p11, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++450: setfield_gc(p37, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++458: guard_value(p42, ConstPtr(ptr44), descr=<Guard43>) [p0, p1, p42, p3, p4, p5, p6, None, None, None, None, None]
++477: p45 = getfield_gc(p42, descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++481: guard_value(p45, ConstPtr(ptr46), descr=<Guard44>) [p0, p1, p45, p42, p3, p4, p5, p6, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
++500: guard_nonnull_class(p5, ConstClass(W_IntObject), descr=<Guard45>) [p0, p1, p5, p3, p4, p6, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++518: i48 = getfield_gc_pure(p5, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++522: i50 = int_sub_ovf(i48, 2)
+guard_no_overflow(, descr=<Guard46>) [p0, p1, p5, i50, p3, p4, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++532: p51 = getfield_gc(p24, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++536: i52 = force_token()
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++536: i54 = int_lt(i50, 2)
+guard_false(i54, descr=<Guard47>) [p0, p1, p24, p3, p4, p5, i52, i50, p51, None, None, None, None, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++546: i56 = int_sub(i50, 1)
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++553: i57 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++553: i59 = int_lt(i56, 2)
+guard_true(i59, descr=<Guard48>) [p0, p1, p24, p3, p4, p5, i56, i57, i52, i50, p51, None, None, None, None, None]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++563: i60 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++563: guard_isnull(p4, descr=<Guard49>) [p0, p1, p4, p3, p5, None, None, None, None, None, None, None, None, None, None]
++572: p61 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++576: p62 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p64 = new_with_vtable(ConstClass(W_IntObject))
++587: setfield_gc(p1, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p1, p3, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p1, ConstPtr(ptr66), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++679: setfield_gc(p1, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++687: setfield_gc(p1, ConstPtr(ptr68), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++695: setfield_gc(p1, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++706: setfield_gc(p1, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p61, 0, p5, descr=<ArrayP 8>)
++765: setarrayitem_gc(p61, 1, ConstPtr(ptr73), descr=<ArrayP 8>)
++774: setarrayitem_gc(p61, 2, ConstPtr(ptr75), descr=<ArrayP 8>)
++783: setarrayitem_gc(p61, 3, ConstPtr(ptr77), descr=<ArrayP 8>)
++792: setarrayitem_gc(p61, 4, ConstPtr(ptr79), descr=<ArrayP 8>)
++801: setfield_gc(p64, 5, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++809: finish(p64, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++846: --end of the loop--
+[120482357611a] jit-log-opt-bridge}
+[120482b8434b9] {jit-backend
+[120482be6f075] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16583ec +0  488DA50000000049BB50114BD4937F00004D8B334983C60149BB50114BD4937F00004D893349BBA08B77D1937F00004D8B3349BBA88B77D1937F00004D39DE0F85000000004D89C64983E8010F80000000004C898550FFFFFF4889BD48FFFFFF48898D40FFFFFF4889B538FFFFFF48898530FFFFFF41BBC0E58C0041FFD348898528FFFFFF488B042530445601488D5070483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700508A010048896808488B9530FFFFFFF6420401741352504889D74889C641BB7098C50041FFD3585A48894240488BB528FFFFFF488B4E40488B7E504885FF0F8500000000488B7E284883FF000F85000000004883BD50FFFFFF020F8C00000000488BBD50FFFFFF4883EF014883FF020F8D00000000488B4A504885C90F8500000000488B4A284883F9000F850000000048C74008FDFFFFFF488B8D40FFFFFF4883E9020F80000000004883C01848C700508A010048896808F64204017417525156504889D74889C641BB7098C50041FFD3585E595A488942404C8B76404883F9020F8C000000004889CF4883E9014883F9020F8D0000000048C74008FDFFFFFF4C8BB548FFFFFF4983EE020F80000000004883C01848C700508A010048896808F642040174155052564889D74889C641BB7098C50041FFD35E5A5848894240488B7E404983FE020F8C000000004C89F14983EE014983FE020F8C000000004D89F04983EE014983FE020F8D0000000048C74008FDFFFFFF488BBD58FFFFFF4883EF020F80000000004883C01848C700508A010048896808F64204017417525756504889D74889C641BB7098C50041FFD3585E5F5A48894240488B4E404883FF020F8C000000004989F84883EF014883FF020F8C000000004989FE4883EF014883FF020F8C000000004989FD4883EF014883FF020F8D00000000488B8D70FFFFFF4C8B41084C8BB538FFFFFFF6420401741B5250514150564889D74C89F641BB7098C50041FFD35E415859585A4C89724048C74008FDFFFFFF49BB908B77D1937F00004D39D80F85000000004D8B701049BBA88B77D1937F00004D39DE0F85000000004883FB017206813BF82200000F85000000004C8B43084983E8020F80000000004C8B76404983F8020F8C000000004C89C24983E8014983F8020F8C000000004D89C54983E8014983F8020F8C000000004C89C74983E8014983F8020F8C000000004D89C24983E8014983F8020F8D000000004D85E40F85000000004C8B61684883C01848C700F822000040C6819500000001F6410401741351504889CF4C89FE41BB7098C50041FFD358594C897950F6410401741D51504889CF49BBE09C79D1937F00004C89DE41BB7098C50041FFD3585949BBE09C79D1937F00004C89597840C681960000000048C741600000000048C781800000000100000048C741582B00000041F644240401742641F6442404407518504C89E7BE000000004889DA41BBD095C50041FFD358EB0641804C24FF0149895C241049C74424180000000049C74424200000000049C74424280000000049C74424300000000048C74008150000004889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD3484000383C300C44151D181521154D1505033200000049BB007065D1937F000041FFD34840003C300C44151D181521154D1505033300000049BB007065D1937F000041FFD3484000213C300C44151D181539154D1505033400000049BB007065D1937F000041FFD3484008181C003C300C4415555C5115394D15590415033500000049BB007065D1937F000041FFD348400818003C300C4415555C5115394D15590415033600000049BB007065D1937F000041FFD348400818003C300C4415555C5115394D15590415033700000049BB007065D1937F000041FFD348400818003C300C4415555C5115394D15590415033800000049BB007065D1937F000041FFD348400818003C300C441D1515555C5115394D15590415033900000049BB007065D1937F000041FFD348400804003C300C44070715555C0715074D15590707033A00000049BB007065D1937F000041FFD3484008003C300C44070715555C0715074D15590707033B00000049BB007065D1937F000041FFD3484008053C300C44070715555C0715074D15590707033C00000049BB007065D1937F000041FFD348400818003C300C441555055C384D151559033D00000049BB007065D1937F000041FFD348400818003C300C44150515551D5C384D151559033E00000049BB007065D1937F000041FFD3484008393C300C4407071555075C074D150707033F00000049BB007065D1937F000041FFD348400818003C300C441515555C394D1C034000000049BB007065D1937F000041FFD348400818003C300C4439151515555C054D1C034100000049BB007065D1937F000041FFD348400818003C300C44153921151515555C054D1C034200000049BB007065D1937F000041FFD34840081D3C300C44070707071507075C074D07034300000049BB007065D1937F000041FFD348400818003C300C441D4D155C04034400000049BB007065D1937F000041FFD348400818003C300C441D15214D155C04034500000049BB007065D1937F000041FFD348400818003C300C441D153915214D155C04034600000049BB007065D1937F000041FFD348400818003C300C441D1535153915214D155C04034700000049BB007065D1937F000041FFD34804203C300C440707070707070707070707034800000049BB007065D1937F000041FFD3480438203C300C440707070707070707070707034900000049BB007065D1937F000041FFD348040C3C30440707070707070707070707034A00000049BB007065D1937F000041FFD348040C213C300707070707070707070707034B00000049BB007065D1937F000041FFD34804183C300C1538210707070707070707070707034C00000049BB007065D1937F000041FFD34804183C300C21151538090707070707070707070707034D00000049BB007065D1937F000041FFD34804183C300C152135151538090707070707070707070707034E00000049BB007065D1937F000041FFD34804183C300C2115151D35151538090707070707070707070707034F00000049BB007065D1937F000041FFD34804183C300C21152915151D35151538090707070707070707070707035000000049BB007065D1937F000041FFD34804303C0C070707070707070707070707070707070707070707070351000000
+[120482bef41c1] jit-backend-dump}
+[120482bef597c] {jit-backend-addr
+bridge out of Guard 18 has address 7f93d16583ec to 7f93d1658895
+[120482bef79e8] jit-backend-addr}
+[120482bef8723] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16583ef +0  A0FEFFFF
+[120482bef9eeb] jit-backend-dump}
+[120482befaba9] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165842d +0  64040000
+[120482befbbba] jit-backend-dump}
+[120482befc77e] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165843a +0  9C040000
+[120482befd6e0] jit-backend-dump}
+[120482befdf39] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16584ec +0  0D040000
+[120482befee43] jit-backend-dump}
+[120482beff607] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16584fa +0  26040000
+[120482bf00511] jit-backend-dump}
+[120482bf00ced] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658508 +0  3E040000
+[120482bf01bc5] jit-backend-dump}
+[120482bf023ed] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165851d +0  75040000
+[120482bf03310] jit-backend-dump}
+[120482bf03aa1] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165852a +0  90040000
+[120482bf049ab] jit-backend-dump}
+[120482bf050fe] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658538 +0  AA040000
+[120482bf06092] jit-backend-dump}
+[120482bf067cc] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658551 +0  B8040000
+[120482bf07659] jit-backend-dump}
+[120482bf07d6d] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165858f +0  A1040000
+[120482bf08c2c] jit-backend-dump}
+[120482bf09398] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16585a0 +0  B4040000
+[120482bf0a24b] jit-backend-dump}
+[120482bf0aabd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16585b9 +0  C1040000
+[120482bf0b9bb] jit-backend-dump}
+[120482bf0c0b6] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16585f5 +0  AA040000
+[120482bf0d063] jit-backend-dump}
+[120482bf0d76b] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658606 +0  BB040000
+[120482bf0e643] jit-backend-dump}
+[120482bf0ed64] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658617 +0  CE040000
+[120482bf0fceb] jit-backend-dump}
+[120482bf103e6] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658630 +0  DB040000
+[120482bf1128c] jit-backend-dump}
+[120482bf119df] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165866e +0  C2040000
+[120482bf12808] jit-backend-dump}
+[120482bf12f04] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165867f +0  D1040000
+[120482bf13dc3] jit-backend-dump}
+[120482bf144cb] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658690 +0  E2040000
+[120482bf1533f] jit-backend-dump}
+[120482bf15a47] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16586a1 +0  F5040000
+[120482bf16912] jit-backend-dump}
+[120482bf17033] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16586f3 +0  C9040000
+[120482bf17e37] jit-backend-dump}
+[120482bf1858a] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165870a +0  D6040000
+[120482bf193b3] jit-backend-dump}
+[120482bf19abb] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165871c +0  E9040000
+[120482bf1a9de] jit-backend-dump}
+[120482bf1b0cd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165872a +0  FE040000
+[120482bf21637] jit-backend-dump}
+[120482bf2202d] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658738 +0  13050000
+[120482bf22f37] jit-backend-dump}
+[120482bf23658] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658749 +0  28050000
+[120482bf2461e] jit-backend-dump}
+[120482bf24d64] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165875a +0  3F050000
+[120482bf25bbf] jit-backend-dump}
+[120482bf26464] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165876b +0  58050000
+[120482bf2736e] jit-backend-dump}
+[120482bf27a76] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165877c +0  73050000
+[120482bf28b10] jit-backend-dump}
+[120482bf29218] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658785 +0  98050000
+[120482bf2a028] jit-backend-dump}
+[120482bf2af7d] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16575ae +0  3A0E0000
+[120482bf2bdbf] jit-backend-dump}
+[120482bf2d0bd] jit-backend}
+[120482bf2fee2] {jit-log-opt-bridge
+# bridge out of Guard 18 with 557 ops
+[p0, p1, p2, p3, p4, p5, p6, i7, i8, i9, i10, i11, i12, p13, i14, i15]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
++37: p17 = getfield_gc(ConstPtr(ptr16), descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++50: guard_value(p17, ConstPtr(ptr18), descr=<Guard50>) [p0, p1, p2, p17, p3, p4, p5, p6, i15, i11, p13, i8, i7, i10, i14, i12, i9]
++69: guard_not_invalidated(, descr=<Guard51>) [p0, p1, p2, p3, p4, p5, p6, i15, i11, p13, i8, i7, i10, i14, i12, i9]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++69: i20 = int_sub_ovf(i7, 1)
+guard_no_overflow(, descr=<Guard52>) [p0, p1, p2, i20, p3, p4, p5, p6, i15, i11, p13, i8, i7, i10, i14, i12, i9]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++82: p22 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
+p24 = new_with_vtable(38645360)
++196: setfield_gc(p24, i8, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p24, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++236: p25 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++247: i26 = force_token()
++247: p27 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++251: guard_isnull(p27, descr=<Guard53>) [p0, p1, p2, p22, p27, p24, p3, p4, p5, p6, i15, i11, p13, i20, i10, i7, i14, i12, i9, p25, i26]
++260: i28 = getfield_gc(p22, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++264: i29 = int_is_zero(i28)
+guard_true(i29, descr=<Guard54>) [p0, p1, p2, p22, p24, p3, p4, p5, p6, i15, i11, p13, i20, i10, i7, i14, i12, i9, p25, i26]
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++274: i31 = int_lt(i20, 2)
+guard_false(i31, descr=<Guard55>) [p0, p1, p2, p22, p24, p3, p4, p5, p6, i15, i11, p13, i20, i10, i7, i14, i12, i9, p25, i26]
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
++288: guard_not_invalidated(, descr=<Guard56>) [p0, p1, p2, p22, p24, p3, p4, p5, p6, i15, i11, p13, i20, i10, i7, i14, i12, i9, p25, i26]
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++288: i33 = int_sub(i20, 1)
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++299: i34 = force_token()
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++299: i36 = int_lt(i33, 2)
+guard_true(i36, descr=<Guard57>) [p0, p1, p2, p22, p24, p3, p4, p5, p6, i33, i34, i15, i11, p13, i20, i10, i7, i14, i12, i9, p25, i26]
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++309: i37 = force_token()
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(6, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++309: i38 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++309: p39 = getfield_gc(p2, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++313: guard_isnull(p39, descr=<Guard58>) [p0, p1, p2, p39, p24, p3, p4, p5, p6, None, None, i15, i11, p13, None, i10, None, i14, i12, i9, None, None]
++322: i41 = getfield_gc(p2, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++326: i42 = int_is_true(i41)
+guard_false(i42, descr=<Guard59>) [p0, p1, p2, p24, p3, p4, p5, p6, None, None, i15, i11, p13, None, i10, None, i14, i12, i9, None, None]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++336: setfield_gc(p24, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++344: i45 = int_sub_ovf(i9, 2)
+guard_no_overflow(, descr=<Guard60>) [p0, p1, p2, i45, p3, p4, p5, p6, None, None, i15, i11, p13, None, i10, None, i14, i12, i9, None, None]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
+p46 = new_with_vtable(38645360)
++372: setfield_gc(p46, i10, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p46, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++409: p47 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++413: i48 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++413: i50 = int_lt(i45, 2)
+guard_false(i50, descr=<Guard61>) [p0, p1, p2, p22, p46, p3, p4, p5, p6, i15, i11, i45, p13, p47, i14, i12, i48, i9]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++423: i52 = int_sub(i45, 1)
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++430: i53 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++430: i55 = int_lt(i52, 2)
+guard_true(i55, descr=<Guard62>) [p0, p1, p2, p22, p46, p3, p4, p5, p6, i53, i52, i15, i11, i45, p13, p47, i14, i12, i48, i9]
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++440: i56 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++440: setfield_gc(p46, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++448: i59 = int_sub_ovf(i11, 2)
+guard_no_overflow(, descr=<Guard63>) [p0, p1, p2, i59, p3, p4, p5, p6, None, None, i15, i11, None, p13, None, i14, i12, None, None]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
+p60 = new_with_vtable(38645360)
++476: setfield_gc(p60, i12, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p60, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++511: p61 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++515: i62 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++515: i64 = int_lt(i59, 2)
+guard_false(i64, descr=<Guard64>) [p0, p1, p2, p22, p60, p3, p4, p5, p6, i15, i62, i11, p13, i59, i14, p61]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++525: i66 = int_sub(i59, 1)
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++532: i67 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++532: i69 = int_lt(i66, 2)
+guard_false(i69, descr=<Guard65>) [p0, p1, p2, p22, p60, p3, p4, p5, p6, i66, i67, i15, i62, i11, p13, i59, i14, p61]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++542: i71 = int_sub(i66, 1)
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++549: i72 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++549: i74 = int_lt(i71, 2)
+guard_true(i74, descr=<Guard66>) [p0, p1, p2, p22, p60, p3, p4, p5, p6, i72, i71, i66, i67, i15, i62, i11, p13, i59, i14, p61]
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++559: i75 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++559: i76 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++559: setfield_gc(p60, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++567: i79 = int_sub_ovf(i14, 2)
+guard_no_overflow(, descr=<Guard67>) [p0, p1, p2, i79, p3, p4, p5, p6, None, None, None, None, i15, None, None, p13, None, i14, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
+p80 = new_with_vtable(38645360)
++595: setfield_gc(p80, i15, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p80, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++632: p81 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++636: i82 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++636: i84 = int_lt(i79, 2)
+guard_false(i84, descr=<Guard68>) [p0, p1, p2, p22, p80, p3, p4, p5, p6, i79, i14, i82, p13, p81]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++646: i86 = int_sub(i79, 1)
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++653: i87 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++653: i89 = int_lt(i86, 2)
+guard_false(i89, descr=<Guard69>) [p0, p1, p2, p22, p80, p3, p4, p5, p6, i86, i87, i79, i14, i82, p13, p81]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++663: i91 = int_sub(i86, 1)
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++670: i92 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++670: i94 = int_lt(i91, 2)
+guard_false(i94, descr=<Guard70>) [p0, p1, p2, p22, p80, p3, p4, p5, p6, i91, i92, i86, i87, i79, i14, i82, p13, p81]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++680: i96 = int_sub(i91, 1)
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++687: i97 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++687: i99 = int_lt(i96, 2)
+guard_true(i99, descr=<Guard71>) [p0, p1, p2, p22, p80, p3, p4, p5, p6, i96, i97, i91, i92, i86, i87, i79, i14, i82, p13, p81]
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++697: i100 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++697: i101 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++697: i102 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++697: i103 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++697: i104 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++697: p105 = getfield_gc(p1, descr=<FieldP pypy.interpreter.eval.Frame.inst_w_globals 8>)
+setfield_gc(p2, p13, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++752: setfield_gc(p80, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++760: guard_value(p105, ConstPtr(ptr107), descr=<Guard72>) [p0, p1, p105, p3, p4, p5, p6, None, None, None, None, None, None, None, None, None, None, None]
++779: p108 = getfield_gc(p105, descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++783: guard_value(p108, ConstPtr(ptr109), descr=<Guard73>) [p0, p1, p108, p105, p3, p4, p5, p6, None, None, None, None, None, None, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
++802: guard_nonnull_class(p5, ConstClass(W_IntObject), descr=<Guard74>) [p0, p1, p5, p3, p4, p6, None, None, None, None, None, None, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++820: i111 = getfield_gc_pure(p5, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++824: i113 = int_sub_ovf(i111, 2)
+guard_no_overflow(, descr=<Guard75>) [p0, p1, p5, i113, p3, p4, None, None, None, None, None, None, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++834: p114 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++838: i115 = force_token()
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++838: i117 = int_lt(i113, 2)
+guard_false(i117, descr=<Guard76>) [p0, p1, p22, p3, p4, p5, i115, p114, i113, None, None, None, None, None, None, None, None, None, None, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++848: i119 = int_sub(i113, 1)
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++855: i120 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++855: i122 = int_lt(i119, 2)
+guard_false(i122, descr=<Guard77>) [p0, p1, p22, p3, p4, p5, i119, i120, i115, p114, i113, None, None, None, None, None, None, None, None, None, None, None]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++865: i124 = int_sub(i119, 1)
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++872: i125 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++872: i127 = int_lt(i124, 2)
+guard_false(i127, descr=<Guard78>) [p0, p1, p22, p3, p4, p5, i125, i124, i119, i120, i115, p114, i113, None, None, None, None, None, None, None, None, None, None, None]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++882: i129 = int_sub(i124, 1)
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++889: i130 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++889: i132 = int_lt(i129, 2)
+guard_false(i132, descr=<Guard79>) [p0, p1, p22, p3, p4, p5, i129, i130, i125, i124, i119, i120, i115, p114, i113, None, None, None, None, None, None, None, None, None, None, None]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++899: i134 = int_sub(i129, 1)
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++906: i135 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++906: i137 = int_lt(i134, 2)
+guard_true(i137, descr=<Guard80>) [p0, p1, p22, p3, p4, p5, i134, i135, i129, i130, i125, i124, i119, i120, i115, p114, i113, None, None, None, None, None, None, None, None, None, None, None]
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++916: i138 = force_token()
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(5, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++916: i139 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++916: i140 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++916: i141 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++916: i142 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++916: i143 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++916: i144 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++916: i145 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++916: i146 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++916: i147 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++916: guard_isnull(p4, descr=<Guard81>) [p0, p1, p4, p3, p5, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
++925: p148 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++929: p149 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p151 = new_with_vtable(ConstClass(W_IntObject))
++940: setfield_gc(p1, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p1, p3, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p1, ConstPtr(ptr153), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++1026: setfield_gc(p1, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++1034: setfield_gc(p1, ConstPtr(ptr155), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++1042: setfield_gc(p1, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++1053: setfield_gc(p1, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p148, 0, p5, descr=<ArrayP 8>)
++1112: setarrayitem_gc(p148, 1, ConstPtr(ptr160), descr=<ArrayP 8>)
++1121: setarrayitem_gc(p148, 2, ConstPtr(ptr162), descr=<ArrayP 8>)
++1130: setarrayitem_gc(p148, 3, ConstPtr(ptr164), descr=<ArrayP 8>)
++1139: setarrayitem_gc(p148, 4, ConstPtr(ptr166), descr=<ArrayP 8>)
++1148: setfield_gc(p151, 21, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++1156: finish(p151, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++1193: --end of the loop--
+[120482c1123ec] jit-log-opt-bridge}
+[120482c5e6b84] {jit-backend
+[120482c68c721] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658d7a +0  488DA50000000049BB38114BD4937F00004D8B334983C60149BB38114BD4937F00004D89334C8B70504D85F60F85000000004C8B70284983FE000F850000000049BBA08B77D1937F00004D8B0349BBA88B77D1937F00004D39D80F85000000004C8B8558FFFFFF4983E8020F80000000004C898550FFFFFF48898548FFFFFF4889B540FFFFFF41BBC0E58C0041FFD348898538FFFFFF488B042530445601488D5028483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700508A010048896808488B9548FFFFFFF6420401741350524889D74889C641BB7098C50041FFD35A5848894240488BB538FFFFFF4C8B46404C8B76504D85F60F85000000004C8B76284983FE000F85000000004883BD50FFFFFF020F8D000000004C8B8570FFFFFF4D8B70084C8BAD40FFFFFFF6420401741952504150564889D74C89EE41BB7098C50041FFD35E4158585A4C896A4048C74008FDFFFFFF49BB908B77D1937F00004D39DE0F85000000004D8B6E1049BBA88B77D1937F00004D39DD0F85000000004883FB017206813BF82200000F85000000004C8B73084983EE020F80000000004C8B6E404983FE020F8D000000004D85E40F85000000004D8B60684883C01848C700F822000041C680950000000141F640040174155041504C89C74C89FE41BB7098C50041FFD34158584D89785041F6400401741F5041504C89C749BBE09C79D1937F00004C89DE41BB7098C50041FFD341585849BBE09C79D1937F00004D89587841C680960000000049C740600000000049C780800000000100000049C740582B00000041F644240401742641F6442404407518504C89E7BE000000004889DA41BBD095C50041FFD358EB0641804C24FF0149895C241049C74424180000000049C74424200000000049C74424280000000049C74424300000000048C74008030000004889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD3484000383C300C44154D211815035200000049BB007065D1937F000041FFD34840003C300C44154D211815035300000049BB007065D1937F000041FFD3484000203C300C44154D071807035400000049BB007065D1937F000041FFD34840003C300C44154D071807035500000049BB007065D1937F000041FFD3484000213C300C44154D071807035600000049BB007065D1937F000041FFD34840081838003C300C444D20155851035700000049BB007065D1937F000041FFD348400818003C300C444D20155851035800000049BB007065D1937F000041FFD348400818003C300C444D20155851035900000049BB007065D1937F000041FFD34820383C300C440707070707035A00000049BB007065D1937F000041FFD3482034383C300C440707070707035B00000049BB007065D1937F000041FFD34820383C300C440707070707035C00000049BB007065D1937F000041FFD348200C3C30440707070707035D00000049BB007065D1937F000041FFD348200C393C300707070707035E00000049BB007065D1937F000041FFD34820183C300C3934150707070707035F00000049BB007065D1937F000041FFD34820303C0C07070707070707070360000000
+[120482c6c7783] jit-backend-dump}
+[120482c6c8aa7] {jit-backend-addr
+bridge out of Guard 16 has address 7f93d1658d7a to 7f93d165905b
+[120482c6cab84] jit-backend-addr}
+[120482c6cb8bf] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658d7d +0  B0FEFFFF
+[120482c6ccaf6] jit-backend-dump}
+[120482c6cdf6b] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658da8 +0  AF020000
+[120482c6cef31] jit-backend-dump}
+[120482c6cf73f] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658db6 +0  C0020000
+[120482c6d0694] jit-backend-dump}
+[120482c6d10e2] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658dd6 +0  BE020000
+[120482c6d1f7b] jit-backend-dump}
+[120482c6d289d] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658de7 +0  EA020000
+[120482c6d379a] jit-backend-dump}
+[120482c6d3f6a] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658e8b +0  65020000
+[120482c6d4e9a] jit-backend-dump}
+[120482c6d57fa] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658e99 +0  78020000
+[120482c6d6817] jit-backend-dump}
+[120482c6d7025] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658ea7 +0  8A020000
+[120482c6d7e10] jit-backend-dump}
+[120482c6d85d3] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658ef7 +0  5A020000
+[120482c6d9479] jit-backend-dump}
+[120482c6d9d1e] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658f0e +0  61020000
+[120482c6dab53] jit-backend-dump}
+[120482c6dba83] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658f20 +0  8C020000
+[120482c6dc95b] jit-backend-dump}
+[120482c6dd0ba] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658f2e +0  9B020000
+[120482c6ddf9f] jit-backend-dump}
+[120482c6de6fe] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658f3c +0  AA020000
+[120482c6df5bd] jit-backend-dump}
+[120482c6dfd9a] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1658f45 +0  C1020000
+[120482c6e0c97] jit-backend-dump}
+[120482c6e1acd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165758c +0  EA170000
+[120482c6e2b1c] jit-backend-dump}
+[120482c6e3983] jit-backend}
+[120482c6e52b5] {jit-log-opt-bridge
+# bridge out of Guard 16 with 85 ops
+[p0, p1, p2, p3, p4, p5, p6, i7, i8, p9, i10, i11]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
++37: p12 = getfield_gc(p2, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++41: guard_isnull(p12, descr=<Guard82>) [p0, p1, p2, p12, p3, p4, p5, p6, i11, i10, i7, p9, i8]
++50: i13 = getfield_gc(p2, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++54: i14 = int_is_true(i13)
+guard_false(i14, descr=<Guard83>) [p0, p1, p2, p3, p4, p5, p6, i11, i10, i7, p9, i8]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++64: p16 = getfield_gc(ConstPtr(ptr15), descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++77: guard_value(p16, ConstPtr(ptr17), descr=<Guard84>) [p0, p1, p2, p16, p3, p4, p5, p6, i11, i10, None, p9, None]
++96: guard_not_invalidated(, descr=<Guard85>) [p0, p1, p2, p3, p4, p5, p6, i11, i10, None, p9, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++96: i20 = int_sub_ovf(i10, 2)
+guard_no_overflow(, descr=<Guard86>) [p0, p1, p2, i20, p3, p4, p5, p6, i11, i10, None, p9, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++113: p22 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
+p24 = new_with_vtable(38645360)
++213: setfield_gc(p24, i11, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p24, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++253: p25 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++264: i26 = force_token()
++264: p27 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++268: guard_isnull(p27, descr=<Guard87>) [p0, p1, p2, p22, p27, p24, p3, p4, p5, p6, i10, p25, i26, p9, i20]
++277: i28 = getfield_gc(p22, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++281: i29 = int_is_zero(i28)
+guard_true(i29, descr=<Guard88>) [p0, p1, p2, p22, p24, p3, p4, p5, p6, i10, p25, i26, p9, i20]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++291: i31 = int_lt(i20, 2)
+guard_true(i31, descr=<Guard89>) [p0, p1, p2, p22, p24, p3, p4, p5, p6, i10, p25, i26, p9, i20]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++305: p32 = getfield_gc(p1, descr=<FieldP pypy.interpreter.eval.Frame.inst_w_globals 8>)
+setfield_gc(p2, p9, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++358: setfield_gc(p24, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++366: guard_value(p32, ConstPtr(ptr34), descr=<Guard90>) [p0, p1, p32, p3, p4, p5, p6, None, None, None, None, None]
++385: p35 = getfield_gc(p32, descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++389: guard_value(p35, ConstPtr(ptr36), descr=<Guard91>) [p0, p1, p35, p32, p3, p4, p5, p6, None, None, None, None, None]
++408: guard_not_invalidated(, descr=<Guard92>) [p0, p1, p32, p3, p4, p5, p6, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
++408: guard_nonnull_class(p5, ConstClass(W_IntObject), descr=<Guard93>) [p0, p1, p5, p3, p4, p6, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++426: i38 = getfield_gc_pure(p5, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++430: i40 = int_sub_ovf(i38, 2)
+guard_no_overflow(, descr=<Guard94>) [p0, p1, p5, i40, p3, p4, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++440: p41 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++444: i42 = force_token()
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++444: i44 = int_lt(i40, 2)
+guard_true(i44, descr=<Guard95>) [p0, p1, p22, p3, p4, p5, i40, p41, i42, None, None, None, None, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++454: guard_isnull(p4, descr=<Guard96>) [p0, p1, p4, p3, p5, None, None, None, None, None, None, None, None]
++463: p45 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++467: p46 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p48 = new_with_vtable(ConstClass(W_IntObject))
++478: setfield_gc(p1, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p1, p3, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p1, ConstPtr(ptr50), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++570: setfield_gc(p1, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++578: setfield_gc(p1, ConstPtr(ptr52), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++586: setfield_gc(p1, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++597: setfield_gc(p1, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p45, 0, p5, descr=<ArrayP 8>)
++656: setarrayitem_gc(p45, 1, ConstPtr(ptr57), descr=<ArrayP 8>)
++665: setarrayitem_gc(p45, 2, ConstPtr(ptr59), descr=<ArrayP 8>)
++674: setarrayitem_gc(p45, 3, ConstPtr(ptr61), descr=<ArrayP 8>)
++683: setarrayitem_gc(p45, 4, ConstPtr(ptr63), descr=<ArrayP 8>)
++692: setfield_gc(p48, 3, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++700: finish(p48, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++737: --end of the loop--
+[120482c760cc9] jit-log-opt-bridge}
+[120482d292fde] {jit-backend
+[120482d7f50fd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659248 +0  488B04250068A0024829E0483B0425E05C5101760D49BB637365D1937F000041FFD3554889E5534154415541564157488DA50000000049BB68114BD4937F00004D8B3B4983C70149BB68114BD4937F00004D893B4C8B7F504C8B77784C0FB6AF960000004C8B67604C8B97800000004C8B4F584C8B4768498B5810498B5018498B4020498B48284D8B40304983FA020F850000000049BBE09C79D1937F00004D39DE0F85000000004C8B770849BB908B77D1937F00004D39DE0F85000000004D8B4E1049BBA88B77D1937F00004D39D90F85000000004983FD000F85000000004883FB017206813BF82200000F85000000004C8B43084983E8020F800000000048899570FFFFFF4889BD68FFFFFF4C898560FFFFFF4889B558FFFFFF41BBC0E58C0041FFD3488B70404C8B40504D85C00F85000000004C8B40284983F8000F85000000004883BD60FFFFFF020F8C000000004C8B8560FFFFFF4983E8014983F8020F8D00000000488BB570FFFFFF813EF82200000F85000000004C8B46084983C0020F80000000004D85E40F85000000004C8BA568FFFFFF498B742468488B042530445601488D5010483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700F822000041C68424950000000141F6442404017417564150504C89E74C89FE41BB7098C50041FFD35841585E4D897C245041F6442404017421564150504C89E749BBE09C79D1937F00004C89DE41BB7098C50041FFD35841585E49BBE09C79D1937F00004D895C247841C68424960000000049C74424600000000049C78424800000000100000049C74424582B000000F64604017429F6460440751E564150504889F7BE000000004889DA41BBD095C50041FFD35841585EEB0540804EFF0148895E1048C746180000000048C746200000000048C746280000000048C74630000000004C8940084889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD329181C3C383530250C08000420036100000049BB007065D1937F000041FFD3181C383C35300C08000420036200000049BB007065D1937F000041FFD3181C383C35300C08000420036300000049BB007065D1937F000041FFD3181C24383C35300C08000420036400000049BB007065D1937F000041FFD3181C383C35300C08000420036500000049BB007065D1937F000041FFD335181C3C300C080420036600000049BB007065D1937F000041FFD3181C0C3C30080420036700000049BB007065D1937F000041FFD3181C0C213C3008036800000049BB007065D1937F000041FFD34C4400203C300C40154918036900000049BB007065D1937F000041FFD34C44003C300C40154918036A00000049BB007065D1937F000041FFD34C44003C300C40154918036B00000049BB007065D1937F000041FFD34C44003C300C40154918036C00000049BB007065D1937F000041FFD34C44003C300C402115154918036D00000049BB007065D1937F000041FFD34C44183C300C0707070707036E00000049BB007065D1937F000041FFD34C4418213C300C0707070707036F00000049BB007065D1937F000041FFD34C44303C0C2107070707070370000000
+[120482d822dcd] jit-backend-dump}
+[120482d823b85] {jit-backend-addr
+Loop 1 (<code object fib, file 'fibonacci.py', line 1> #29 LOAD_GLOBAL) has address 7f93d165927e to 7f93d165952c (bootstrap 7f93d1659248)
+[120482d82619b] jit-backend-addr}
+[120482d826d92] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165927a +0  D0FEFFFF
+[120482d828020] jit-backend-dump}
+[120482d828d5b] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16592d9 +0  4F020000
+[120482d829e72] jit-backend-dump}
+[120482d82a5f7] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16592ec +0  5B020000
+[120482d82b5a4] jit-backend-dump}
+[120482d82bd35] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659303 +0  61020000
+[120482d82cc4c] jit-backend-dump}
+[120482d82d53b] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165931a +0  67020000
+[120482d82e477] jit-backend-dump}
+[120482d82edfd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659324 +0  98020000
+[120482d82fd5e] jit-backend-dump}
+[120482d8304b1] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659336 +0  A1020000
+[120482d8313bb] jit-backend-dump}
+[120482d831ab7] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659344 +0  AD020000
+[120482d83295d] jit-backend-dump}
+[120482d8330b0] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165937a +0  90020000
+[120482d834075] jit-backend-dump}
+[120482d8347fa] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659388 +0  9F020000
+[120482d835781] jit-backend-dump}
+[120482d835f5e] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659396 +0  AD020000
+[120482d836d61] jit-backend-dump}
+[120482d83750c] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16593ab +0  D0020000
+[120482d838303] jit-backend-dump}
+[120482d838a49] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16593be +0  DB020000
+[120482d839921] jit-backend-dump}
+[120482d83a0cc] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16593cc +0  EA020000
+[120482d83af7e] jit-backend-dump}
+[120482d83b693] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16593d5 +0  FF020000
+[120482d83c471] jit-backend-dump}
+[120482d83d74a] jit-backend}
+[120482d842c33] {jit-log-opt-loop
+# Loop 1 (<code object fib, file 'fibonacci.py', line 1> #29 LOAD_GLOBAL) : entry bridge with 98 ops
+[p0, p1]
++84: p2 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
++88: p3 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++92: i4 = getfield_gc(p0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++100: p5 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++104: i6 = getfield_gc(p0, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++111: i7 = getfield_gc(p0, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
++115: p8 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++119: p10 = getarrayitem_gc(p8, 0, descr=<ArrayP 8>)
++123: p12 = getarrayitem_gc(p8, 1, descr=<ArrayP 8>)
++127: p14 = getarrayitem_gc(p8, 2, descr=<ArrayP 8>)
++131: p16 = getarrayitem_gc(p8, 3, descr=<ArrayP 8>)
++135: p18 = getarrayitem_gc(p8, 4, descr=<ArrayP 8>)
++139: p19 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++139: guard_value(i6, 2, descr=<Guard97>) [i6, p1, p0, p2, p3, i4, p5, i7, p10, p12, p14, p16, p18]
++149: guard_value(p3, ConstPtr(ptr21), descr=<Guard98>) [p1, p0, p3, p2, i4, p5, p10, p12, p14, p16, p18]
++168: p22 = getfield_gc(p0, descr=<FieldP pypy.interpreter.eval.Frame.inst_w_globals 8>)
++172: guard_value(p22, ConstPtr(ptr23), descr=<Guard99>) [p1, p0, p22, p2, i4, p5, p10, p12, p14, p16, p18]
++191: p24 = getfield_gc(p22, descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++195: guard_value(p24, ConstPtr(ptr25), descr=<Guard100>) [p1, p0, p24, p22, p2, i4, p5, p10, p12, p14, p16, p18]
++214: guard_not_invalidated(, descr=<Guard101>) [p1, p0, p22, p2, i4, p5, p10, p12, p14, p16, p18]
++214: guard_value(i4, 0, descr=<Guard102>) [i4, p1, p0, p2, p5, p10, p12, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
++224: guard_nonnull_class(p10, ConstClass(W_IntObject), descr=<Guard103>) [p1, p0, p10, p2, p5, p12, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++242: i28 = getfield_gc_pure(p10, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++246: i30 = int_sub_ovf(i28, 2)
+guard_no_overflow(, descr=<Guard104>) [p1, p0, p10, i30, p2, p5, p12]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++256: p32 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
++293: p33 = getfield_gc(p32, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++297: i34 = force_token()
++297: p35 = getfield_gc(p32, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++301: guard_isnull(p35, descr=<Guard105>) [p1, p0, p32, p35, p2, p5, p10, p12, i34, i30, p33]
++310: i36 = getfield_gc(p32, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++314: i37 = int_is_zero(i36)
+guard_true(i37, descr=<Guard106>) [p1, p0, p32, p2, p5, p10, p12, i34, i30, p33]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++324: i39 = int_lt(i30, 2)
+guard_false(i39, descr=<Guard107>) [p1, p0, p32, p2, p5, p10, p12, i34, i30, p33]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
++338: guard_not_invalidated(, descr=<Guard108>) [p1, p0, p32, p2, p5, p10, p12, i34, i30, p33]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++338: i41 = int_sub(i30, 1)
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++349: i42 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++349: i44 = int_lt(i41, 2)
+guard_true(i44, descr=<Guard109>) [p1, p0, p32, p2, p5, p10, p12, i41, i42, i34, i30, p33]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++359: i45 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
++359: guard_class(p12, ConstClass(W_IntObject), descr=<Guard110>) [p1, p0, p12, p2, p5, p10, None, None, None, None, None]
++378: i48 = getfield_gc_pure(p12, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++382: i50 = int_add_ovf(i48, 2)
+guard_no_overflow(, descr=<Guard111>) [p1, p0, p12, i50, p2, p5, p10, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++392: guard_isnull(p5, descr=<Guard112>) [p1, p0, p5, p2, p10, i50, None, None, None, None, None]
++401: p51 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++413: p52 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p54 = new_with_vtable(ConstClass(W_IntObject))
++476: setfield_gc(p0, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p0, p2, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p0, ConstPtr(ptr21), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++577: setfield_gc(p0, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++586: setfield_gc(p0, ConstPtr(ptr56), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++595: setfield_gc(p0, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++607: setfield_gc(p0, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p51, 0, p10, descr=<ArrayP 8>)
++667: setarrayitem_gc(p51, 1, ConstPtr(ptr61), descr=<ArrayP 8>)
++675: setarrayitem_gc(p51, 2, ConstPtr(ptr63), descr=<ArrayP 8>)
++683: setarrayitem_gc(p51, 3, ConstPtr(ptr65), descr=<ArrayP 8>)
++691: setarrayitem_gc(p51, 4, ConstPtr(ptr67), descr=<ArrayP 8>)
++699: setfield_gc(p54, i50, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++703: finish(p54, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++740: --end of the loop--
+[120482d8b0deb] jit-log-opt-loop}
+[120482e9646db] {jit-backend
+[120482ea15096] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659721 +0  488DA50000000049BB80114BD4937F00004D8B334983C60149BB80114BD4937F00004D893349BBA08B77D1937F00004D8B3349BBA88B77D1937F00004D39DE0F85000000004D89C64983E8010F800000000048898550FFFFFF4C898548FFFFFF4889B540FFFFFF41BBC0E58C0041FFD348898538FFFFFF488B042530445601488D5040483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700508A010048896808488B9550FFFFFFF6420401741352504889D74889C641BB7098C50041FFD3585A48894240488BB538FFFFFF4C8B46404C8B6E504D85ED0F85000000004C8B6E284983FD000F85000000004883BD48FFFFFF020F8D000000004D89F04983EE020F80000000004C8B72504D85F60F85000000004C8B72284983FE000F850000000048C74008FDFFFFFF4C8B8560FFFFFF4983E8020F80000000004883C01848C700508A010048896808F6420401741956415052504889D74889C641BB7098C50041FFD3585A41585E488942404C8B76404983F8020F8D000000004C8BB540FFFFFFF6420401741352504889D74C89F641BB7098C50041FFD3585A4C89724048C74008FDFFFFFF4C8BB570FFFFFF41813EF82200000F8500000000498B56084883C2030F80000000004D85E40F85000000004C8BA568FFFFFF4D8B7424684883C01848C700F822000041C68424950000000141F644240401741352504C89E74C89FE41BB7098C50041FFD3585A4D897C245041F644240401741D52504C89E749BBE09C79D1937F00004C89DE41BB7098C50041FFD3585A49BBE09C79D1937F00004D895C247841C68424960000000049C74424600000000049C78424800000000100000049C74424582B00000041F6460401742641F6460440751A52504C89F7BE000000004889DA41BBD095C50041FFD3585AEB0541804EFF0149895E1049C746180000000049C746200000000049C746280000000049C7463000000000488950084889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD34C4400383C300C401815154921037100000049BB007065D1937F000041FFD34C44003C300C401815154921037200000049BB007065D1937F000041FFD34C4400213C300C401815154939037300000049BB007065D1937F000041FFD34C44081834003C300C4058552015493915037400000049BB007065D1937F000041FFD34C440818003C300C4058552015493915037500000049BB007065D1937F000041FFD34C440818003C300C4058552015493915037600000049BB007065D1937F000041FFD34C4408003C300C4058070715493907037700000049BB007065D1937F000041FFD34C440839003C300C4058070715492107037800000049BB007065D1937F000041FFD34C440838003C300C4058070715492107037900000049BB007065D1937F000041FFD34C4408003C300C4058070715492107037A00000049BB007065D1937F000041FFD34C4408213C300C4058070715490707037B00000049BB007065D1937F000041FFD34C440818003C300C405821384915037C00000049BB007065D1937F000041FFD34C44383C300C0707070707037D00000049BB007065D1937F000041FFD34C4438093C300C0707070707037E00000049BB007065D1937F000041FFD34C44303C0C090707070707037F000000
+[120482ea470fa] jit-backend-dump}
+[120482ea47fa0] {jit-backend-addr
+bridge out of Guard 109 has address 7f93d1659721 to 7f93d1659a20
+[120482ea499cc] jit-backend-addr}
+[120482ea4a5f5] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659724 +0  B0FEFFFF
+[120482ea4b838] jit-backend-dump}
+[120482ea4c729] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659762 +0  BA020000
+[120482ea4d6d5] jit-backend-dump}
+[120482ea4e1eb] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165976f +0  EA020000
+[120482ea4f10e] jit-backend-dump}
+[120482ea4fa2f] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659813 +0  65020000
+[120482ea508fb] jit-backend-dump}
+[120482ea51067] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659821 +0  7A020000
+[120482ea51f26] jit-backend-dump}
+[120482ea526ab] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165982f +0  8E020000
+[120482ea5360c] jit-backend-dump}
+[120482ea53f08] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165983c +0  C4020000
+[120482ea54d89] jit-backend-dump}
+[120482ea555d6] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659849 +0  D9020000
+[120482ea564ae] jit-backend-dump}
+[120482ea56c7e] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659857 +0  ED020000
+[120482ea57ad9] jit-backend-dump}
+[120482ea581d4] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659870 +0  F5020000
+[120482ea591bf] jit-backend-dump}
+[120482ea599ce] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16598b0 +0  D6020000
+[120482ea5a7d1] jit-backend-dump}
+[120482ea5aff9] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16598f0 +0  B6020000
+[120482ea5bdf0] jit-backend-dump}
+[120482ea5c5e5] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16598fe +0  C5020000
+[120482ea5d434] jit-backend-dump}
+[120482ea5dbde] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659907 +0  DA020000
+[120482ea5eadc] jit-backend-dump}
+[120482ea5f78e] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d16593ab +0  72030000
+[120482ea605d0] jit-backend-dump}
+[120482ea66a40] jit-backend}
+[120482ea8255e] {jit-log-opt-bridge
+# bridge out of Guard 109 with 101 ops
+[p0, p1, p2, p3, p4, p5, p6, i7, i8, i9, i10, p11]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
++37: p13 = getfield_gc(ConstPtr(ptr12), descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++50: guard_value(p13, ConstPtr(ptr14), descr=<Guard113>) [p0, p1, p2, p13, p3, p4, p5, p6, p11, i8, i9, i10, i7]
++69: guard_not_invalidated(, descr=<Guard114>) [p0, p1, p2, p3, p4, p5, p6, p11, i8, i9, i10, i7]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++69: i16 = int_sub_ovf(i7, 1)
+guard_no_overflow(, descr=<Guard115>) [p0, p1, p2, i16, p3, p4, p5, p6, p11, i8, i9, i10, i7]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++82: p18 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
+p20 = new_with_vtable(38645360)
++182: setfield_gc(p20, i8, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p20, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++222: p21 = getfield_gc(p18, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++233: i22 = force_token()
++233: p23 = getfield_gc(p18, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++237: guard_isnull(p23, descr=<Guard116>) [p0, p1, p2, p18, p23, p20, p3, p4, p5, p6, p11, i16, p21, i9, i10, i7, i22]
++246: i24 = getfield_gc(p18, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++250: i25 = int_is_zero(i24)
+guard_true(i25, descr=<Guard117>) [p0, p1, p2, p18, p20, p3, p4, p5, p6, p11, i16, p21, i9, i10, i7, i22]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++260: i27 = int_lt(i16, 2)
+guard_true(i27, descr=<Guard118>) [p0, p1, p2, p18, p20, p3, p4, p5, p6, p11, i16, p21, i9, i10, i7, i22]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++274: guard_not_invalidated(, descr=<Guard119>) [p0, p1, p2, p20, p3, p4, p5, p6, p11, None, None, i9, i10, i7, None]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++274: i30 = int_sub_ovf(i7, 2)
+guard_no_overflow(, descr=<Guard120>) [p0, p1, p2, i30, p20, p3, p4, p5, p6, p11, None, None, i9, i10, i7, None]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++287: i31 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++287: p32 = getfield_gc(p2, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++291: guard_isnull(p32, descr=<Guard121>) [p0, p1, p2, p32, p20, p3, p4, p5, p6, p11, None, None, i9, i10, i7, None]
++300: i33 = getfield_gc(p2, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++304: i34 = int_is_true(i33)
+guard_false(i34, descr=<Guard122>) [p0, p1, p2, p20, p3, p4, p5, p6, p11, None, None, i9, i10, i7, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++314: setfield_gc(p20, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++322: i37 = int_sub_ovf(i10, 2)
+guard_no_overflow(, descr=<Guard123>) [p0, p1, p2, i37, p3, p4, p5, p6, p11, None, None, i9, i10, None, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
+p38 = new_with_vtable(38645360)
++350: setfield_gc(p38, i9, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p38, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++389: p39 = getfield_gc(p18, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++393: i40 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++393: i42 = int_lt(i37, 2)
+guard_true(i42, descr=<Guard124>) [p0, p1, p2, p18, p38, p3, p4, p5, p6, p11, i37, p39, i10, i40]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+setfield_gc(p2, p11, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++439: setfield_gc(p38, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++447: guard_class(p6, ConstClass(W_IntObject), descr=<Guard125>) [p0, p1, p6, p3, p4, p5, None, None, None, None, None]
++467: i45 = getfield_gc_pure(p6, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++471: i47 = int_add_ovf(i45, 3)
+guard_no_overflow(, descr=<Guard126>) [p0, p1, p6, i47, p3, p4, p5, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++481: guard_isnull(p4, descr=<Guard127>) [p0, p1, p4, p3, p5, i47, None, None, None, None, None]
++490: p48 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++502: p49 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p51 = new_with_vtable(ConstClass(W_IntObject))
++513: setfield_gc(p1, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p1, p3, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p1, ConstPtr(ptr53), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++606: setfield_gc(p1, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++615: setfield_gc(p1, ConstPtr(ptr55), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++624: setfield_gc(p1, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++636: setfield_gc(p1, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p48, 0, p5, descr=<ArrayP 8>)
++694: setarrayitem_gc(p48, 1, ConstPtr(ptr60), descr=<ArrayP 8>)
++702: setarrayitem_gc(p48, 2, ConstPtr(ptr62), descr=<ArrayP 8>)
++710: setarrayitem_gc(p48, 3, ConstPtr(ptr64), descr=<ArrayP 8>)
++718: setarrayitem_gc(p48, 4, ConstPtr(ptr66), descr=<ArrayP 8>)
++726: setfield_gc(p51, i47, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++730: finish(p51, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++767: --end of the loop--
+[120482eb070b5] jit-log-opt-bridge}
+[120482f878de5] {jit-backend
+[120482f8d1792] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659c10 +0  488DA50000000049BB98114BD4937F00004D8B334983C60149BB98114BD4937F00004D89334C8B70504D85F60F85000000004C8B70284983FE000F8500000000F6400401741056504889C741BB7098C50041FFD3585E48897040488BB570FFFFFF813EF82200000F8500000000488B46084883C0010F80000000004D85E40F85000000004C8BA568FFFFFF498B74246848898550FFFFFF488B042530445601488D5010483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700F822000041C68424950000000141F644240401741350564C89E74C89FE41BB7098C50041FFD35E584D897C245041F644240401741D50564C89E749BBE09C79D1937F00004C89DE41BB7098C50041FFD35E5849BBE09C79D1937F00004D895C247841C68424960000000049C74424600000000049C78424800000000100000049C74424582B000000F64604017425F6460440751A56504889F7BE000000004889DA41BBD095C50041FFD3585EEB0540804EFF0148895E1048C746180000000048C746200000000048C746280000000048C7463000000000488BB550FFFFFF488970084889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD34C4400383C300C40184915038000000049BB007065D1937F000041FFD34C44003C300C40184915038100000049BB007065D1937F000041FFD34C44183C300C070707038200000049BB007065D1937F000041FFD34C4418013C300C070707038300000049BB007065D1937F000041FFD34C44303C0C010707070384000000
+[120482f8db10a] jit-backend-dump}
+[120482f8dbc2c] {jit-backend-addr
+bridge out of Guard 107 has address 7f93d1659c10 to 7f93d1659de9
+[120482f8dce17] jit-backend-addr}
+[120482f8dd8e2] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659c13 +0  C0FEFFFF
+[120482f8de9c7] jit-backend-dump}
+[120482f8df7a5] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659c3e +0  A7010000
+[120482f8e0777] jit-backend-dump}
+[120482f8e0ee3] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659c4c +0  B6010000
+[120482f8e1ccd] jit-backend-dump}
+[120482f8e2452] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659c79 +0  A5010000
+[120482f8e3305] jit-backend-dump}
+[120482f8e3aa3] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659c87 +0  B2010000
+[120482f8e485b] jit-backend-dump}
+[120482f8e508f] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659c90 +0  C5010000
+[120482f8e5eac] jit-backend-dump}
+[120482f8e6a70] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659396 +0  76080000
+[120482f8e78d8] jit-backend-dump}
+[120482f8e8613] jit-backend}
+[120482f8e9694] {jit-log-opt-bridge
+# bridge out of Guard 107 with 33 ops
+[p0, p1, p2, p3, p4, p5, p6, i7, i8, p9]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
++37: p10 = getfield_gc(p2, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++41: guard_isnull(p10, descr=<Guard128>) [p0, p1, p2, p10, p3, p4, p5, p6, p9, i8, i7]
++50: i11 = getfield_gc(p2, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++54: i12 = int_is_true(i11)
+guard_false(i12, descr=<Guard129>) [p0, p1, p2, p3, p4, p5, p6, p9, i8, i7]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+setfield_gc(p2, p9, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++90: guard_class(p6, ConstClass(W_IntObject), descr=<Guard130>) [p0, p1, p6, p3, p4, p5, None, None, None]
++109: i15 = getfield_gc_pure(p6, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++113: i17 = int_add_ovf(i15, 1)
+guard_no_overflow(, descr=<Guard131>) [p0, p1, p6, i17, p3, p4, p5, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++123: guard_isnull(p4, descr=<Guard132>) [p0, p1, p4, p3, p5, i17, None, None, None]
++132: p18 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++144: p19 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p21 = new_with_vtable(ConstClass(W_IntObject))
++214: setfield_gc(p1, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p1, p3, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p1, ConstPtr(ptr23), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++307: setfield_gc(p1, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++316: setfield_gc(p1, ConstPtr(ptr25), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++325: setfield_gc(p1, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++337: setfield_gc(p1, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p18, 0, p5, descr=<ArrayP 8>)
++393: setarrayitem_gc(p18, 1, ConstPtr(ptr30), descr=<ArrayP 8>)
++401: setarrayitem_gc(p18, 2, ConstPtr(ptr32), descr=<ArrayP 8>)
++409: setarrayitem_gc(p18, 3, ConstPtr(ptr34), descr=<ArrayP 8>)
++417: setarrayitem_gc(p18, 4, ConstPtr(ptr36), descr=<ArrayP 8>)
++425: setfield_gc(p21, i17, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++436: finish(p21, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++473: --end of the loop--
+[120482f934cd4] jit-log-opt-bridge}
+[12048310b7695] {jit-backend
+[1204831179d92] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659eac +0  488DA50000000049BBB0114BD4937F00004D8B2B4983C50149BBB0114BD4937F00004D892B49BBA08B77D1937F00004D8B2B49BBA88B77D1937F00004D39DD0F85000000004C8BAD48FFFFFF4983ED010F800000000048898538FFFFFF48899530FFFFFF4889B528FFFFFF4C898520FFFFFF41BBC0E58C0041FFD348898518FFFFFF488B042530445601488D5040483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700508A010048896808488B9528FFFFFFF6420401741352504889D74889C641BB7098C50041FFD3585A488942404C8B8518FFFFFF498B70404D8B50504D85D20F85000000004D8B50284983FA000F85000000004983FD020F8D000000004C8BAD48FFFFFF4983ED020F80000000004C8B6A504D85ED0F85000000004C8B6A284983FD000F85000000004C8BAD20FFFFFFF64204017417525041504889D74C89EE41BB7098C50041FFD34158585A4C896A4048C74008FDFFFFFF4D89F54983EE020F8000000000498B50404983FE020F8D000000004C8BB530FFFFFF498B56504885D20F8500000000498B56284883FA000F85000000004C8BAD38FFFFFF49C74508FDFFFFFF4C8BAD60FFFFFF4983ED020F80000000004883C01848C700508A01004889680841F646040174154150504C89F74889C641BB7098C50041FFD358415849894640498B50404983FD020F8C000000004C89EE4983ED014983FD020F8D00000000488BB540FFFFFF41F6460401741056504C89F741BB7098C50041FFD3585E4989764048C74008FDFFFFFF488BB570FFFFFF813EF82200000F85000000004C8B76084983C6050F80000000004D85E40F85000000004C8BA568FFFFFF498B7424684883C01848C700F822000041C68424950000000141F644240401741350564C89E74C89FE41BB7098C50041FFD35E584D897C245041F644240401741D50564C89E749BBE09C79D1937F00004C89DE41BB7098C50041FFD35E5849BBE09C79D1937F00004D895C247841C68424960000000049C74424600000000049C78424800000000100000049C74424582B000000F64604017425F6460440751A50564889F7BE000000004889DA41BBD095C50041FFD35E58EB0540804EFF0148895E1048C746180000000048C746200000000048C746280000000048C74630000000004C8970084889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD34C44081834003C300C4020151549395855038500000049BB007065D1937F000041FFD34C440818003C300C4020151549395855038600000049BB007065D1937F000041FFD34C44081835003C300C4020151549395855038700000049BB007065D1937F000041FFD34C44600820285C003C300C40681815493958351555038800000049BB007065D1937F000041FFD34C446008205C003C300C40681815493958351555038900000049BB007065D1937F000041FFD34C446008205C003C300C40681815493958351555038A00000049BB007065D1937F000041FFD34C4460085C003C300C40680715493958070755038B00000049BB007065D1937F000041FFD34C446008355C003C300C40680715493958070755038C00000049BB007065D1937F000041FFD34C446008345C003C300C40680715493958070755038D00000049BB007065D1937F000041FFD34C4460085C003C300C40680715493958070755038E00000049BB007065D1937F000041FFD34C4460395C3C300C40070715493558070707038F00000049BB007065D1937F000041FFD34C4460205C3C300C40150839070715493558070707039000000049BB007065D1937F000041FFD34C4438085C3C300C40070707070715493558070707039100000049BB007065D1937F000041FFD34C44385C3C300C40070707070715493558070707039200000049BB007065D1937F000041FFD34C4438353C300C40070707070715490758070707039300000049BB007065D1937F000041FFD34C443820003C300C400849155835039400000049BB007065D1937F000041FFD34C443820003C300C4035150849155819039500000049BB007065D1937F000041FFD34C44183C300C07070707070707039600000049BB007065D1937F000041FFD34C4418393C300C07070707070707039700000049BB007065D1937F000041FFD34C44303C0C39070707070707070398000000
+[12048311ae4e0] jit-backend-dump}
+[12048311af322] {jit-backend-addr
+bridge out of Guard 118 has address 7f93d1659eac to 7f93d165a233
+[12048311b0d10] jit-backend-addr}
+[12048311b1c58] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659eaf +0  90FEFFFF
+[12048311b2e5d] jit-backend-dump}
+[12048311b3da5] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659eed +0  42030000
+[12048311b4cc8] jit-backend-dump}
+[12048311b5df8] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659efe +0  76030000
+[12048311b6cb7] jit-backend-dump}
+[12048311b7455] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659fa9 +0  EE020000
+[12048311b82fb] jit-backend-dump}
+[12048311b8b6e] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659fb7 +0  07030000
+[12048311b99a3] jit-backend-dump}
+[12048311ba0ea] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659fc1 +0  23030000
+[12048311baf6a] jit-backend-dump}
+[12048311bb747] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659fd2 +0  5D030000
+[12048311bc57c] jit-backend-dump}
+[12048311bccc3] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659fdf +0  76030000
+[12048311bdb5c] jit-backend-dump}
+[12048311be2d5] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d1659fed +0  8E030000
+[12048311bf25c] jit-backend-dump}
+[12048311bf9ed] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a02a +0  76030000
+[12048311c0887] jit-backend-dump}
+[12048311c1031] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a038 +0  8C030000
+[12048311c1ef0] jit-backend-dump}
+[12048311c26a7] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a04c +0  9F030000
+[12048311c34dd] jit-backend-dump}
+[12048311c3d11] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a05a +0  B8030000
+[12048311c4abd] jit-backend-dump}
+[12048311c5242] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a07a +0  BE030000
+[12048311c61b0] jit-backend-dump}
+[12048311c6935] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a0b7 +0  A7030000
+[12048311c77f4] jit-backend-dump}
+[12048311c7f79] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a0c8 +0  B6030000
+[12048311c8d18] jit-backend-dump}
+[12048311c9484] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a105 +0  9B030000
+[12048311ca249] jit-backend-dump}
+[12048311ca9a9] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a113 +0  AC030000
+[12048311cb874] jit-backend-dump}
+[12048311cc08f] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a11c +0  C3030000
+[12048311ccec5] jit-backend-dump}
+[12048311cdb06] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165982f +0  79060000
+[12048311d4ccb] jit-backend-dump}
+[12048311d5c91] jit-backend}
+[12048311d787f] {jit-log-opt-bridge
+# bridge out of Guard 118 with 155 ops
+[p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, i10, p11, i12, i13, i14, i15]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
++37: p17 = getfield_gc(ConstPtr(ptr16), descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++50: guard_value(p17, ConstPtr(ptr18), descr=<Guard133>) [p0, p1, p2, p3, p17, p4, p5, p6, p7, p8, p11, i15, i12, i13, i14, p9, i10]
++69: guard_not_invalidated(, descr=<Guard134>) [p0, p1, p2, p3, p4, p5, p6, p7, p8, p11, i15, i12, i13, i14, p9, i10]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++69: i20 = int_sub_ovf(i10, 1)
+guard_no_overflow(, descr=<Guard135>) [p0, p1, p2, p3, i20, p4, p5, p6, p7, p8, p11, i15, i12, i13, i14, p9, i10]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++86: p22 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
+p24 = new_with_vtable(38645360)
++193: setfield_gc(p24, i15, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p3, p24, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++233: p25 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++244: i26 = force_token()
++244: p27 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++248: guard_isnull(p27, descr=<Guard136>) [p0, p1, p2, p3, p22, p27, p4, p24, p5, p6, p7, p8, p11, p25, i12, i13, i14, p9, i20, i26, i10]
++257: i28 = getfield_gc(p22, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++261: i29 = int_is_zero(i28)
+guard_true(i29, descr=<Guard137>) [p0, p1, p2, p3, p22, p4, p24, p5, p6, p7, p8, p11, p25, i12, i13, i14, p9, i20, i26, i10]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++271: i31 = int_lt(i20, 2)
+guard_true(i31, descr=<Guard138>) [p0, p1, p2, p3, p22, p4, p24, p5, p6, p7, p8, p11, p25, i12, i13, i14, p9, i20, i26, i10]
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++281: guard_not_invalidated(, descr=<Guard139>) [p0, p1, p2, p3, p4, p24, p5, p6, p7, p8, p11, None, i12, i13, i14, p9, None, None, i10]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++281: i34 = int_sub_ovf(i10, 2)
+guard_no_overflow(, descr=<Guard140>) [p0, p1, p2, p3, i34, p4, p24, p5, p6, p7, p8, p11, None, i12, i13, i14, p9, None, None, i10]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++298: i35 = force_token()
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(4, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++298: p36 = getfield_gc(p3, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++302: guard_isnull(p36, descr=<Guard141>) [p0, p1, p2, p3, p36, p4, p24, p5, p6, p7, p8, p11, None, i12, i13, i14, p9, None, None, i10]
++311: i37 = getfield_gc(p3, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++315: i38 = int_is_true(i37)
+guard_false(i38, descr=<Guard142>) [p0, p1, p2, p3, p4, p24, p5, p6, p7, p8, p11, None, i12, i13, i14, p9, None, None, i10]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+setfield_gc(p3, p11, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++365: setfield_gc(p24, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++373: i41 = int_sub_ovf(i14, 2)
+guard_no_overflow(, descr=<Guard143>) [p0, p1, p2, i41, p4, p5, p6, p7, p8, None, None, i12, i13, i14, p9, None, None, None]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++386: p42 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++390: i43 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++390: i45 = int_lt(i41, 2)
+guard_true(i45, descr=<Guard144>) [p0, p1, p2, p22, p4, p5, p6, p7, p8, i43, p42, i41, None, None, i12, i13, i14, p9, None, None, None]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++400: p46 = getfield_gc(p2, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++411: guard_isnull(p46, descr=<Guard145>) [p0, p1, p2, p46, p4, p5, p6, p7, p8, None, None, None, None, None, i12, i13, i14, p9, None, None, None]
++420: i47 = getfield_gc(p2, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++424: i48 = int_is_true(i47)
+guard_false(i48, descr=<Guard146>) [p0, p1, p2, p4, p5, p6, p7, p8, None, None, None, None, None, i12, i13, i14, p9, None, None, None]
++434: p49 = getfield_gc(p2, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++434: setfield_gc(p4, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++449: i52 = int_sub_ovf(i13, 2)
+guard_no_overflow(, descr=<Guard147>) [p0, p1, p2, i52, p5, p6, p7, p8, None, None, None, None, None, i12, i13, None, p9, None, None, None]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
+p53 = new_with_vtable(38645360)
++477: setfield_gc(p53, i12, descr=<FieldS JitVirtualRef.virtual_token 8>)
+setfield_gc(p2, p53, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++513: p54 = getfield_gc(p22, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++517: i55 = force_token()
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++517: i57 = int_lt(i52, 2)
+guard_false(i57, descr=<Guard148>) [p0, p1, p2, p22, p53, p5, p6, p7, p8, p54, i13, i55, p9, i52]
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++527: i59 = int_sub(i52, 1)
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++534: i60 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++534: i62 = int_lt(i59, 2)
+guard_true(i62, descr=<Guard149>) [p0, p1, p2, p22, p53, p5, p6, p7, p8, i59, i60, p54, i13, i55, p9, i52]
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++544: i63 = force_token()
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(3, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(2, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+setfield_gc(p2, p9, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++578: setfield_gc(p53, -3, descr=<FieldS JitVirtualRef.virtual_token 8>)
++586: guard_class(p8, ConstClass(W_IntObject), descr=<Guard150>) [p0, p1, p8, p5, p6, p7, None, None, None, None, None, None, None]
++605: i66 = getfield_gc_pure(p8, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++609: i68 = int_add_ovf(i66, 5)
+guard_no_overflow(, descr=<Guard151>) [p0, p1, p8, i68, p5, p6, p7, None, None, None, None, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++619: guard_isnull(p6, descr=<Guard152>) [p0, p1, p6, p5, p7, i68, None, None, None, None, None, None, None]
++628: p69 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++640: p70 = getfield_gc(p1, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p72 = new_with_vtable(ConstClass(W_IntObject))
++651: setfield_gc(p1, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p1, p5, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p1, ConstPtr(ptr74), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++744: setfield_gc(p1, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++753: setfield_gc(p1, ConstPtr(ptr76), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++762: setfield_gc(p1, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++774: setfield_gc(p1, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p69, 0, p7, descr=<ArrayP 8>)
++830: setarrayitem_gc(p69, 1, ConstPtr(ptr81), descr=<ArrayP 8>)
++838: setarrayitem_gc(p69, 2, ConstPtr(ptr83), descr=<ArrayP 8>)
++846: setarrayitem_gc(p69, 3, ConstPtr(ptr85), descr=<ArrayP 8>)
++854: setarrayitem_gc(p69, 4, ConstPtr(ptr87), descr=<ArrayP 8>)
++862: setfield_gc(p72, i68, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++866: finish(p72, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++903: --end of the loop--
+[120483128a4c0] jit-log-opt-bridge}
+[12048318b67f4] {jit-backend
+[120483194238c] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a522 +0  488B04250068A0024829E0483B0425E05C5101760D49BB637365D1937F000041FFD3554889E5534154415541564157488DA50000000049BBC8114BD4937F00004D8B3B4983C70149BBC8114BD4937F00004D893B4C8B7F504C8B77784C0FB6AF960000004C8B67604C8B97800000004C8B4F584C8B4768498B5810498B5018498B4020498B48284D8B40304983FA020F8500000000813AF8A201000F8500000000480FB652084885D20F85000000004983FD000F850000000049BBE09C79D1937F00004D39DE0F85000000004C8B770849BB908B77D1937F00004D39DE0F85000000004D8B6E1049BBA88B77D1937F00004D39DD0F85000000004883FB017206813BF82200000F8500000000488B4B084889C84883E9010F80000000004889B570FFFFFF48898568FFFFFF4C898560FFFFFF4889BD58FFFFFF48898D50FFFFFF41BBC0E58C0041FFD3488B4840488B78504885FF0F8500000000488B78284883FF000F85000000004883BD50FFFFFF020F8D00000000488B8D68FFFFFF4883E9020F80000000004D85E40F85000000004C8BA558FFFFFF498B4C2468488B042530445601488D5010483B142548445601761A49BB2D7265D1937F000041FFD349BBC27265D1937F000041FFD3488914253044560148C700F822000041C68424950000000141F644240401741350514C89E74C89FE41BB7098C50041FFD359584D897C245041F644240401741D50514C89E749BBE09C79D1937F00004C89DE41BB7098C50041FFD3595849BBE09C79D1937F00004D895C247841C68424960000000049C74424600000000049C78424800000000100000049C74424582B000000F64104017425F6410440751A51504889CFBE000000004889DA41BBD095C50041FFD35859EB05408049FF014889591048C741180000000048C741200000000048C741280000000048C741300000000048C74008020000004889042550CB710141BB404EF30041FFD3B801000000488D65D8415F415E415D415C5B5DC349BB007065D1937F000041FFD329181C3C383530250C08000420039900000049BB007065D1937F000041FFD3181C083C3835300C000420039A00000049BB007065D1937F000041FFD3181C3C3835300C000420039B00000049BB007065D1937F000041FFD335181C3C38300C000420039C00000049BB007065D1937F000041FFD3181C383C300C000420039D00000049BB007065D1937F000041FFD3181C383C300C000420039E00000049BB007065D1937F000041FFD3181C34383C300C000420039F00000049BB007065D1937F000041FFD3181C383C300C00042003A000000049BB007065D1937F000041FFD3181C0C3C3000042003A100000049BB007065D1937F000041FFD3181C0C053C302003A200000049BB007065D1937F000041FFD3404C001C3C300C4815510403A300000049BB007065D1937F000041FFD3404C003C300C4815510403A400000049BB007065D1937F000041FFD3404C003C300C4815510403A500000049BB007065D1937F000041FFD3404C3C300C4807070703A600000049BB007065D1937F000041FFD3404C0C053C3007070703A700000049BB007065D1937F000041FFD3404C303C0C07070703A8000000
+[1204831952744] jit-backend-dump}
+[12048319532d6] {jit-backend-addr
+Loop 2 (<code object fib, file 'fibonacci.py', line 1> #9 POP_JUMP_IF_FALSE) has address 7f93d165a558 to 7f93d165a7fd (bootstrap 7f93d165a522)
+[1204831954a6c] jit-backend-addr}
+[120483195560b] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a554 +0  C0FEFFFF
+[1204831971167] jit-backend-dump}
+[120483197219d] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a5b3 +0  46020000
+[120483197310b] jit-backend-dump}
+[1204831973996] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a5bf +0  59020000
+[1204831974823] jit-backend-dump}
+[1204831974f9c] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a5cd +0  68020000
+[1204831975e80] jit-backend-dump}
+[1204831976612] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a5d7 +0  7A020000
+[12048319774dd] jit-backend-dump}
+[1204831977d43] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a5ea +0  83020000
+[1204831978b85] jit-backend-dump}
+[12048319792d8] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a601 +0  87020000
+[120483197a18b] jit-backend-dump}
+[120483197a967] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a618 +0  8B020000
+[120483197b826] jit-backend-dump}
+[120483197c116] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a62a +0  B0020000
+[120483197cf4b] jit-backend-dump}
+[120483197d766] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a63b +0  B9020000
+[120483197e5da] jit-backend-dump}
+[120483197ecd6] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a678 +0  95020000
+[120483197fae6] jit-backend-dump}
+[12048319802c2] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a686 +0  A4020000
+[12048319811d9] jit-backend-dump}
+[12048319818d4] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a694 +0  B2020000
+[12048319826e4] jit-backend-dump}
+[1204831982f63] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a6a5 +0  D8020000
+[1204831983e09] jit-backend-dump}
+[12048319845cd] {jit-backend-dump
+BACKEND x86_64
+SYS_EXECUTABLE pypy
+CODE_DUMP @7f93d165a6ae +0  EA020000
+[120483198541b] jit-backend-dump}
+[1204831986251] jit-backend}
+[12048319881cf] {jit-log-opt-loop
+# Loop 2 (<code object fib, file 'fibonacci.py', line 1> #9 POP_JUMP_IF_FALSE) : entry bridge with 85 ops
+[p0, p1]
++84: p2 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
++88: p3 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++92: i4 = getfield_gc(p0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++100: p5 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++104: i6 = getfield_gc(p0, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++111: i7 = getfield_gc(p0, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
++115: p8 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++119: p10 = getarrayitem_gc(p8, 0, descr=<ArrayP 8>)
++123: p12 = getarrayitem_gc(p8, 1, descr=<ArrayP 8>)
++127: p14 = getarrayitem_gc(p8, 2, descr=<ArrayP 8>)
++131: p16 = getarrayitem_gc(p8, 3, descr=<ArrayP 8>)
++135: p18 = getarrayitem_gc(p8, 4, descr=<ArrayP 8>)
++139: p19 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
++139: guard_value(i6, 2, descr=<Guard153>) [i6, p1, p0, p2, p3, i4, p5, i7, p10, p12, p14, p16, p18]
++149: guard_class(p12, 38651672, descr=<Guard154>) [p1, p0, p12, p2, p3, i4, p5, p10, p14, p16, p18]
++161: i22 = getfield_gc_pure(p12, descr=<FieldU pypy.objspace.std.boolobject.W_BoolObject.inst_boolval 8>)
++166: guard_false(i22, descr=<Guard155>) [p1, p0, p2, p3, i4, p5, p10, p14, p16, p18]
++175: guard_value(i4, 0, descr=<Guard156>) [i4, p1, p0, p2, p3, p5, p10, p14, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #16 LOAD_GLOBAL')
++185: guard_value(p3, ConstPtr(ptr24), descr=<Guard157>) [p1, p0, p3, p2, p5, p10, p14, p16, p18]
++204: p25 = getfield_gc(p0, descr=<FieldP pypy.interpreter.eval.Frame.inst_w_globals 8>)
++208: guard_value(p25, ConstPtr(ptr26), descr=<Guard158>) [p1, p0, p25, p2, p5, p10, p14, p16, p18]
++227: p27 = getfield_gc(p25, descr=<FieldP pypy.objspace.std.dictmultiobject.W_DictMultiObject.inst_strategy 16>)
++231: guard_value(p27, ConstPtr(ptr28), descr=<Guard159>) [p1, p0, p27, p25, p2, p5, p10, p14, p16, p18]
++250: guard_not_invalidated(, descr=<Guard160>) [p1, p0, p25, p2, p5, p10, p14, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #19 LOAD_FAST')
++250: guard_nonnull_class(p10, ConstClass(W_IntObject), descr=<Guard161>) [p1, p0, p10, p2, p5, p14, p16, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #22 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #25 BINARY_SUBTRACT')
++268: i30 = getfield_gc_pure(p10, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++272: i32 = int_sub_ovf(i30, 1)
+guard_no_overflow(, descr=<Guard162>) [p1, p0, p10, i32, p2, p5, p18]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #26 CALL_FUNCTION')
++285: p34 = call(ConstClass(getexecutioncontext), descr=<Callr 8 EF=1>)
++329: p35 = getfield_gc(p34, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_topframeref 64>)
++333: i36 = force_token()
++333: p37 = getfield_gc(p34, descr=<FieldP pypy.interpreter.executioncontext.ExecutionContext.inst_w_tracefunc 80>)
++337: guard_isnull(p37, descr=<Guard163>) [p1, p0, p34, p37, p2, p5, p10, p18, i36, i32, p35]
++346: i38 = getfield_gc(p34, descr=<FieldU pypy.interpreter.executioncontext.ExecutionContext.inst_profilefunc 40>)
++350: i39 = int_is_zero(i38)
+guard_true(i39, descr=<Guard164>) [p1, p0, p34, p2, p5, p10, p18, i36, i32, p35]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
++360: i41 = int_lt(i32, 2)
+guard_true(i41, descr=<Guard165>) [p1, p0, p34, p2, p5, p10, p18, i36, i32, p35]
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #29 LOAD_GLOBAL')
++374: guard_not_invalidated(, descr=<Guard166>) [p1, p0, p2, p5, p10, p18, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #32 LOAD_FAST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #35 LOAD_CONST')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #38 BINARY_SUBTRACT')
++374: i44 = int_sub_ovf(i30, 2)
+guard_no_overflow(, descr=<Guard167>) [p1, p0, p10, i44, p2, p5, None, None, None]
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #39 CALL_FUNCTION')
++391: i45 = force_token()
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #0 LOAD_FAST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #3 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #6 COMPARE_OP')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #9 POP_JUMP_IF_FALSE')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #12 LOAD_CONST')
+debug_merge_point(1, '<code object fib. file 'fibonacci.py'. line 1> #15 RETURN_VALUE')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #42 BINARY_ADD')
+debug_merge_point(0, '<code object fib. file 'fibonacci.py'. line 1> #43 RETURN_VALUE')
++391: guard_isnull(p5, descr=<Guard168>) [p1, p0, p5, p2, p10, None, None, None]
++400: p46 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_locals_stack_w 104>)
++412: p47 = getfield_gc(p0, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_cells 40>)
+p49 = new_with_vtable(ConstClass(W_IntObject))
++475: setfield_gc(p0, 1, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_frame_finished_execution 149>)
+setfield_gc(p0, p2, descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_last_exception 80>)
+setfield_gc(p0, ConstPtr(ptr24), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_pycode 120>)
++568: setfield_gc(p0, 0, descr=<FieldU pypy.interpreter.pyframe.PyFrame.inst_is_being_profiled 150>)
++577: setfield_gc(p0, ConstPtr(ptr51), descr=<FieldP pypy.interpreter.pyframe.PyFrame.inst_lastblock 96>)
++586: setfield_gc(p0, 1, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_valuestackdepth 128>)
++598: setfield_gc(p0, 43, descr=<FieldS pypy.interpreter.pyframe.PyFrame.inst_last_instr 88>)
+setarrayitem_gc(p46, 0, p10, descr=<ArrayP 8>)
++654: setarrayitem_gc(p46, 1, ConstPtr(ptr56), descr=<ArrayP 8>)
++662: setarrayitem_gc(p46, 2, ConstPtr(ptr58), descr=<ArrayP 8>)
++670: setarrayitem_gc(p46, 3, ConstPtr(ptr60), descr=<ArrayP 8>)
++678: setarrayitem_gc(p46, 4, ConstPtr(ptr62), descr=<ArrayP 8>)
++686: setfield_gc(p49, 2, descr=<FieldS pypy.objspace.std.intobject.W_IntObject.inst_intval 8>)
++694: finish(p49, descr=<DoneWithThisFrameDescrRef object at 0x1883180>)
++731: --end of the loop--
+[12048319f361e] jit-log-opt-loop}
+[1204831b12f0c] {jit-backend-counts
+entry 0:4175
+bridge 8:1729
+bridge 14:502
+bridge 17:229
+bridge 18:261
+bridge 16:235
+entry 1:1237
+bridge 109:481
+bridge 107:75
+bridge 118:99
+entry 2:9
+[1204831b189f7] jit-backend-counts}

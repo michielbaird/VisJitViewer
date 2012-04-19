@@ -1,0 +1,2 @@
+recursive-include _jitviewer/templates *.html
+recursive-include _jitviewer/static *

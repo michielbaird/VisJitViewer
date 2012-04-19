@@ -1,0 +1,26 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>PyPy Jit Viewer</title>
+        <link rel="stylesheet" type="text/css" href="design1.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+    <table id="main">
+        <tr><th colspan="2">FOR_ITER to 38</th></tr>
+        <tr><td>+</td><td>guard(i6 == 1)</td></tr>
+        <tr><td>+</td><td>guard_class(p10, 38559944, descr=<Guard5>)
+        <tr><td>+</td><td>i18 = ((pypy.module.__builtin__.functional.W_XRangeIterator)p10).inst_remaining
+        <tr><td>+</td><td>i20 = i18 > 0
+        <tr><td>+</td><td>guard(i20 is true)
+        <tr><td>+</td><td>i21 = ((pypy.module.__builtin__.functional.W_XRangeIterator)p10).inst_current
+        <tr><td>+</td><td>i22 = ((pypy.module.__builtin__.functional.W_XRangeIterator)p10).inst_step
+        <tr><td>+</td><td>i23 = i21 + i22
+        <tr><td>+</td><td>i25 = i18 - 1
+        <tr><td>+</td><td>((pypy.module.__builtin__.functional.W_XRangeIterator)p10).inst_current = i23
+        <tr><td>+</td><td>((pypy.module.__builtin__.functional.W_XRangeIterator)p10).inst_remaining = i25
+        <tr><td>+</td><td>guard(i4 == 0)
+    </table>
+    </body>
+</html>
+

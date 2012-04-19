@@ -1,0 +1,62 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>PyPy Jit Viewer</title>
+        <link rel="stylesheet" type="text/css" href="design1.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <table id="main">
+            <tr>
+                <th>Python</th><th>IR CODE</th>
+            </tr>
+            <tr>
+                <td class="python">
+<pre>def fib(n):</pre>
+                </td><td class="ircode">
+NOT JITTED
+                </td>
+            </tr>
+            <tr><td colspan="2">LOLOLOL</td></tr>
+            <tr>
+                <td class="python">
+<div class="highlight"><pre>    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+</pre></div>
+
+                </td><td class="ircode">
+<a href="#">POP_JUMP_IF_FALSE 16</a><br/>
+                </td>
+            </tr>
+            <tr><td colspan="2">LOLOLOL</td></tr>
+            <tr>
+                <td class="python">
+<pre>         return 1</pre>
+                </td><td class="ircode">
+NOT JITTED
+                </td>
+            </tr>
+            <tr><td colspan="2">LOLOLOL</td></tr>
+            <tr>
+                <td class="python">
+<div class="highlight"><pre>    <span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+                </td><td class="ircode">
+<a href="#">LOAD_GLOBAL fib</a><br/>
+<a href="#">LOAD_FAST n</a><br/>
+<a href="#">LOAD_CONST 1</a><br/>
+<a href="#">BINARY_SUBTRACT </a><br/>
+<a href="#">CALL_FUNCTION 1</a><br/>
+<a href="#">LOAD_GLOBAL fib</a><br/>
+<a href="#">LOAD_FAST n</a><br/>
+<a href="#">LOAD_CONST 2</a><br/>
+<a href="#">BINARY_SUBTRACT </a><br/>
+<a href="#">CALL_FUNCTION 1</a><br/>
+<a href="#">BINARY_ADD </a><br/>
+<a href="#">RETURN_VALUE </a><br/>
+                </td>
+            </tr>
+            <tr><td colspan="2">LOLOLOL</td></tr>
+        </table>
+    </body>
+</html>

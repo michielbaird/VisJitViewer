@@ -1,0 +1,31 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>PyPy Jit Viewer</title>
+        <link rel="stylesheet" type="text/css" href="design1.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <table id="main">
+            <tr>
+                <th>Python</th><th>IR CODE</th>
+            </tr>
+            <tr>
+                <td class="python"><div class="highlight"><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span></td>
+                <td class="ircode">Not Jitted</td>
+            </tr>
+            <tr>
+                <td class="python"><span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">1000000</span><span class="p">):</span></td>
+                <td class="ircode">FOR_ITER to 38<BR/>STORE_NAME j</td>
+            </tr>
+            <tr>
+                <td class="python">&nbsp;&nbsp;&nbsp;&nbsp;<span class="n">i</span><span class="o">+=</span> <span class="n">j</span></td>
+                <td class="ircode">LOAD_NAME i<BR/>LOAD_NAME j<BR/>INPLACE_ADD<BR/>STORE_NAME i<BR/>JUMP_ABSOLUTE 19<BR/>FOR_ITER to 38</td>
+            </tr>
+            <tr>
+                <td class="python"><span class="k">print</span> <span class="n">i</span><span class="n"></span></td>
+                <td class="ircode">Not Jitted</td>
+            </tr>
+        </table>
+    </body>
+</html>

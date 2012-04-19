@@ -1,0 +1,8 @@
+TODO
+====
+
+ * Insert a comment next to the "pypy_long_struct" code that indicates it is
+   for signal handling, and not from the user's code.
+
+ * Breaks on app.interphook code because the line numbers aren't relative to
+   the file, they are just within that codeblock.

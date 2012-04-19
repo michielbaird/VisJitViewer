@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: JitViewer
+Version: 0.1
+Summary: Viewer for pypy's jit traces
+Home-page: http://pypy.org
+Author: Maciej Fijalkowski, Antonio Cuni and the PyPy team
+Author-email: fijall@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

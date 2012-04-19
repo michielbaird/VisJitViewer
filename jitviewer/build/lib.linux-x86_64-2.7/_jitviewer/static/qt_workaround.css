@@ -1,0 +1,7 @@
+/* apparently, the QWebView included in Qt 4.7.2 cannot display Droid Sans
+   Mono or Andale Mono in bold, so we switch to some other monospaced font */
+
+.dmp {
+    font-family: Inconsolata, Courier New, Courier, monospace;
+	font-size: 14px;
+}

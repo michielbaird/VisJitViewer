@@ -1,0 +1,37 @@
+{% if show_upper_path %}
+   <a href="/" onClick="show_loop({{current_loop}}, {{upper_path}}); return false">&lt;-- Up</a>
+{% endif %}
+<br/>{{ source.inputargs|safe }}
+{% for sourceline in source.lines %}
+   {% if sourceline.in_loop %}
+       <div id="line-{{loop.index + source.firstlineno - 1}}" class="source visible">{{sourceline.line}}</div>
+       {% if sourceline.chunks %}
+          <div class="operations">
+              {% for chunk in sourceline.chunks %}
+                 {% if chunk.is_bytecode %}
+                   <span class="{{chunk.cssclass}}">{{chunk.html_repr()}}</span><br/>
+                   {% for op in chunk.operations %}
+                      {% if op.name != "debug_merge_point" %}
+                        {% if op.bridge %}
+                          <span class="guard single-operation">{{op.html_repr()}}</span><a class="bridgelink" href="/" onClick="show_loop('{{op.bridge}}'); return false">&nbsp;show bridge</a>&nbsp; (run {{op.count}} times, ~{{op.percentage}}%)<br/>
+                          {% if op.asm %}
+                            <p class="asm">{{op.asm}}</p>
+                          {% endif %}
+                        {% else %}
+                          <span class="{{op.html_class()}}">{{op.html_repr()}}</span><br/>
+                          {% if op.asm %}
+                              <p class="asm">{{op.asm}}</p>
+                          {% endif %}
+                        {% endif %}
+                     {% endif %}
+                   {% endfor %}
+                 {% else %}
+                   <a class="inlined_call" onClick="show_loop('{{current_loop}}', '{{chunk.path}}'); return false" href="/">{{(chunk.html_repr())|safe}}</a><br/>
+                 {% endif %}
+              {% endfor %}
+          </div>
+       {% endif %}
+   {% else %}
+       <div id="line-{{loop.index + source.firstlineno - 1}}" class="source hidden">{{sourceline.line}}</div>
+   {% endif %}
+{% endfor %}

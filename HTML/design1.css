@@ -1,0 +1,38 @@
+#main
+{
+    width:100%;
+    border-collapse:collapse;
+}
+#main td, #main th 
+{
+    font-size:1.1em;
+    border:1px solid #98bf21;
+    padding:3px 7px 2px 7px;
+}
+#main th 
+{
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#A7C942;
+    color:#ffffff;
+}
+#main tr.alt td 
+{
+    color:#000000;
+    background-color:#EAF2D3;
+}
+
+#main td.python
+{
+    width:40%;
+    font-family:"Courier New", Courier, Monospace;
+}
+
+#main td.ircode
+{
+    width:60%;
+}
+
+

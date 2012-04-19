@@ -1,0 +1,4 @@
+flask
+pygments
+simplejson
+Jinja2>=2.6

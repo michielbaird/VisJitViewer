@@ -1,0 +1,201 @@
+<html> 
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono&subset=latin' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../static/style.css"/> 
+  <link rel="stylesheet" type="text/css" href="../static/pygments.css"/> 
+  <script src="../static/jquery.min.js"></script> 
+  <script src="../static/jquery.scrollTo-1.4.2-min.js"></script> 
+  <script src="../static/script.js"></script> 
+  <script> 
+    $(document).ready(function() {
+      $.scrollTo($("#line-14"), 200);
+    });
+  </script> 
+</head> 
+<body>
+	<header>
+		<div id="loops">
+		<span>FuckYeah &#9733; floating menu!</span>
+			<ul>
+			  <li><a href="#" onclick="show_loop(1)">f, file 'source.py', line 2</a></li>
+			  <li><a href="#" onclick="show_loop(2)">inlined_call, file 'source.py', line 12</a></li>
+			  <li><a href="#" onclick="show_loop(3)">bridge, file 'source.py', line 19</a></li>
+			</ul>
+		</div>
+		<a href="loop?no=2&path=&scroll_to=0">Up</a> 
+	</header>
+  
+    <div id=main> 
+         <div id="line-12" class="source hidden">def inlined_call():</div> 
+     
+  
+     
+         <div id="line-13" class="source hidden">    i = 0</div> 
+     
+  
+     
+         <div id="line-14" class="source visible">    while i &lt; 1003:</div> 
+         
+            <div class="operations"> 
+                
+                   
+                     <span class="dmp">LOAD_FAST</span><br/> 
+                     
+                        <span class="single-operation guard">guard_nonnull_class(p7, ConstClass(W_IntObject))</span><br/> 
+                     
+                   
+                
+                   
+                     <span class="dmp">LOAD_CONST</span><br/> 
+                     
+                   
+                
+                   
+                     <span class="dmp">COMPARE_OP</span><br/> 
+                     
+                        <span class="single-operation ">i9 = ((pypy.objspace.std.intobject.W_IntObject)p7).inst_intval</span><br/> 
+                     
+                        <span class="single-operation ">i11 = i9 &lt; 1003</span><br/> 
+                     
+                        <span class="single-operation guard">i11 is true</span><br/> 
+                     
+                   
+                
+                   
+                     <span class="dmp">JUMP_IF_FALSE</span><br/> 
+                     
+                   
+                
+                   
+                     <span class="dmp">POP_TOP</span><br/> 
+                     
+                   
+                
+            </div> 
+         
+     
+  
+     
+         <div id="line-15" class="source visible">        i = inner(i)</div> 
+         
+            <div class="operations"> 
+                
+                   
+                     <span class="dmp">LOAD_GLOBAL</span><br/> 
+                     
+                        <span class="single-operation ">p12 = ((pypy.interpreter.eval.Frame)p0).inst_w_globals</span><br/> 
+                     
+                        <span class="single-operation guard">p12 is ConstPtr(ptr13)</span><br/> 
+                     
+                        <span class="single-operation ">p14 = ((pypy.objspace.std.dictmultiobject.W_DictMultiObject)p12).inst_r_dict_content</span><br/> 
+                     
+                        <span class="single-operation guard">p14 is null</span><br/> 
+                     
+                        <span class="single-operation ">p16 = ((pypy.objspace.std.celldict.ModuleCell)ConstPtr(ptr15)).inst_w_value</span><br/> 
+                     
+                        <span class="single-operation guard">guard_nonnull_class(p16, ConstClass(Function))</span><br/> 
+                     
+                   
+                
+                   
+                     <span class="dmp">LOAD_FAST</span><br/> 
+                     
+                   
+                
+                   
+                     <span class="dmp">CALL_FUNCTION</span><br/> 
+                     
+                        <span class="single-operation ">i18 = ((pypy.interpreter.pyframe.PyFrame)p0).inst_is_being_profiled</span><br/> 
+                     
+                        <span class="single-operation guard">i18 is false</span><br/> 
+                     
+                        <span class="single-operation ">p19 = ((pypy.interpreter.function.Function)p16).inst_code</span><br/> 
+                     
+                        <span class="single-operation guard">p19 is ConstPtr(ptr20)</span><br/> 
+                     
+                        <span class="single-operation ">p21 = ((pypy.interpreter.function.Function)p16).inst_w_func_globals</span><br/> 
+                     
+                        <span class="single-operation ">p22 = ((pypy.interpreter.function.Function)p16).inst_closure</span><br/> 
+                     
+                        <span class="single-operation ">p24 = call(ConstClass(getexecutioncontext))</span><br/> 
+                     
+                        <span class="single-operation guard">guard_no_exception()</span><br/> 
+                     
+                        <span class="single-operation ">i25 = ((pypy.interpreter.executioncontext.ExecutionContext)p24).inst_framestackdepth</span><br/> 
+                     
+                        <span class="single-operation ">i27 = ((pypy.module.sys.Module)ConstPtr(ptr26)).inst_recursionlimit</span><br/> 
+                     
+                        <span class="single-operation ">i28 = i25 &gt; i27</span><br/> 
+                     
+                        <span class="single-operation guard">i28 is false</span><br/> 
+                     
+                        <span class="single-operation ">i30 = i25 + 1</span><br/> 
+                     
+                        <span class="single-operation ">p31 = ((pypy.interpreter.executioncontext.ExecutionContext)p24).inst_topframeref</span><br/> 
+                     
+                        <span class="single-operation ">i32 = force_token()</span><br/> 
+                     
+                        <span class="single-operation ">p33 = ((pypy.interpreter.executioncontext.ExecutionContext)p24).inst_w_tracefunc</span><br/> 
+                     
+                        <span class="single-operation ">((pypy.interpreter.executioncontext.ExecutionContext)p24).inst_framestackdepth = i30</span><br/> 
+                     
+                        <span class="single-operation guard">p33 is null</span><br/> 
+                     
+                        <span class="single-operation ">i34 = ((pypy.interpreter.executioncontext.ExecutionContext)p24).inst_profilefunc</span><br/> 
+                     
+                        <span class="single-operation ">i35 = int_is_zero(i34)</span><br/> 
+                     
+                        <span class="single-operation guard">i35 is true</span><br/> 
+                     
+                   
+                
+                   
+                     <a class="inlined_call" href="b.html">inlined call to inner in source.py</a><br/> 
+                   
+                
+                   
+                     <span class="dmp">STORE_FAST</span><br/> 
+                     
+                   
+                
+                   
+                     <span class="dmp">JUMP_ABSOLUTE</span><br/> 
+                     
+                        <span class="single-operation ">i40 = ((pypysig_long_struct)151937600).value</span><br/> 
+                     
+                        <span class="single-operation ">i42 = i40 + 1</span><br/> 
+                     
+                        <span class="single-operation ">((pypysig_long_struct)151937600).value = i42</span><br/> 
+                     
+                        <span class="single-operation ">i45 = i42 &amp; 1089470464</span><br/> 
+                     
+                        <span class="single-operation ">((pypy.interpreter.executioncontext.ExecutionContext)p24).inst_framestackdepth = i25</span><br/> 
+                     
+                        <span class="single-operation ">((pypy.interpreter.executioncontext.ExecutionContext)p24).inst_topframeref = p31</span><br/> 
+                     
+                        <span class="single-operation ">i46 = int_is_true(i45)</span><br/> 
+                     
+                        <span class="single-operation guard">i46 is false</span><br/> 
+                     
+                   
+                
+                   
+                     <span class="dmp">LOAD_FAST</span><br/> 
+                     
+                        <span class="single-operation ">p49 = new_with_vtable(ConstClass(W_IntObject))</span><br/> 
+                     
+                        <span class="single-operation ">((pypy.objspace.std.intobject.W_IntObject)p49).inst_intval = i37</span><br/> 
+                     
+                        <span class="single-operation ">jump(p0, p1, p2, p3, 9, ConstPtr(ptr51), ConstPtr(ptr52), p49)</span><br/> 
+                     
+                   
+                
+            </div> 
+         
+     
+  
+     
+         <div id="line-16" class="source hidden"></div> 
+    </div><!-- End of #main -->
+  
+</body>
