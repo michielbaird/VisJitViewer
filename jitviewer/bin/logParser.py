@@ -6,7 +6,7 @@ from pypy.tool.logparser import extract_category
 from pypy.tool.jitlogparser.storage import LoopStorage
 from pypy.tool.jitlogparser.parser import adjust_bridges, import_log,\
      parse_log_counts
-     
+
 from _jitviewer.parser import ParserWithHtmlRepr, FunctionHtml
 from _jitviewer.display import CodeRepr, CodeReprNoFile
 import _jitviewer
@@ -26,7 +26,7 @@ def create_loop_dict(loops):
     for loop in loops:
         d[mangle_descr(loop.descr)] = loop
     return d
-    
+
 def index(storage):
     loops = []
     for index, loop in enumerate(storage.loops):
@@ -42,7 +42,7 @@ def index(storage):
         func.descr = mangle_descr(loop.descr)
         loops.append(func)
     return loops
-                                 
+
 def loopfunc(id,storage):
     name = mangle_descr(id)
     orig_loop = storage.loop_dict[name]
@@ -89,10 +89,10 @@ def loopfunc(id,storage):
                 source = CodeRepr(inspect.getsource(code), code, loop)
         except (IOError, OSError):
             source = CodeReprNoFile(loop)
-    d = (source, name, up, bool(path), startline, callstack)
+    d = (source, name, up, loop.filename, startline, callstack)
     return d
-    
-    
+
+
 def view():
     pass
 
@@ -100,7 +100,7 @@ def view():
 def getMySources(filename):
     extra_path = os.path.dirname(filename)
     storage = LoopStorage(extra_path)
-    
+
     log, loops = import_log(filename, ParserWithHtmlRepr)
     parse_log_counts(extract_category(log, 'jit-backend-count'), loops)
     storage.loops = [loop for loop in loops
@@ -109,16 +109,16 @@ def getMySources(filename):
     storage.loop_dict = create_loop_dict(loops)
     loops = index(storage)
     ids = [item.descr for item in loops]
-    
+
     mySources = []
     for item in ids:
-        source, name, up, path, startline, callstack = loopfunc(item,storage)
+        source, name, up, filename, startline, callstack = loopfunc(item,storage)
         i = 1
         mySource = []
         pending = False
         pendingLine = 0
         pendingCode = ""
-        
+        print filename
         for sourceline in source.lines:
             #print  str(i) + ": " + sourceline.line
             line = sourceline.line
@@ -130,19 +130,19 @@ def getMySources(filename):
                         if chunk.is_bytecode:
                             ops = []
                             for op in chunk.operations:
-                                if op.name != "debug_merge_point": 
+                                if op.name != "debug_merge_point":
                                     op_repr = (op.html_repr(), op.asm)
                                     ops.append(op_repr)
                             chunks.append((chunk.html_repr(),chunk,ops))
-                            
 
-                        
+
+
             if len(chunks) == 0:
                 if pending:
                    pendingCode +="\n"+ line
                 else:
                     pendingCode = line
-                    pendingLine = i 
+                    pendingLine = i
                     pending = True
             else:
                 if pending:
@@ -153,9 +153,9 @@ def getMySources(filename):
         if pending:
             pending = False
             mySource.append((pendingLine, pendingCode, None))
-        mySources.append(mySource)                                
-            
-                                
+        mySources.append((filename,mySource ))
+
+
     return mySources
-        
-        
+
+

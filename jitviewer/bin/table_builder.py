@@ -7,7 +7,7 @@ import sys
 logFile = sys.argv[1]
 mySources = logParser.getMySources(logFile)
 #print mySources
-mySource = mySources[2]
+mySource = mySources[2][1]
 
 print "<!doctype HTML>"
 print "<html>"
