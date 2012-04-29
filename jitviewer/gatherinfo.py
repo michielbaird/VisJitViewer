@@ -8,7 +8,9 @@ class PopulatedListing(directoryIndex.Directory):
         directoryIndex.Directory.__init__(self, rootDir)
         sources = logParser.getMySources(logfile)
         self.index = self.getSearchable()
+        self.indexDir = self.getSearchableDir()
         self.other = []
+        self.default = os.path.abspath(sources[0][0])
         for filename,source in sources:
             raw_fn = os.path.abspath(filename)
             pyF = self.index.get(raw_fn,None)

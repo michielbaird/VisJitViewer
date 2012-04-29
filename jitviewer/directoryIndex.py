@@ -34,12 +34,24 @@ class Directory:
             index[name] = pyFile
         return index
 
+    def getSearchableDir(self):
+        index = {}
+        for name, pyFile in self._getDirList():
+            index[name] = pyFile
+        return index
+
 
     def _getFileList(self):
         fileList = [ (x.filename, x) for x in self.pyFiles]
         for direc in self.dirs:
             fileList.extend(direc._getFileList())
         return fileList
+
+    def _getDirList(self):
+        dirList = [ (self.name, self)]
+        for direc in self.dirs:
+            dirList.extend(direc._getDirList())
+        return dirList
 
     def __repr__(self):
         return self.name.split("/")[-1]

@@ -1,9 +1,0 @@
-#!/home/mbaird/git/VisJitViewer/michielbaird-jitviewer-5a31ded0d4e8/cd/bin/python
-# EASY-INSTALL-ENTRY-SCRIPT: 'pip==1.1','console_scripts','pip'
-__requires__ = 'pip==1.1'
-import sys
-from pkg_resources import load_entry_point
-
-sys.exit(
-   load_entry_point('pip==1.1', 'console_scripts', 'pip')()
-)
