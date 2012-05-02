@@ -7,6 +7,7 @@ import sys
 import os
 import selectHTML
 import base64
+import random
 
 
 def buildHeader():
@@ -29,6 +30,35 @@ def buildLoopSelector(pyFile, selected):
     result += "</div><br/>\n"
     return result
 
+def buildHeatMap(pyFile,loop):
+    result = "<div class=\"heatmap\">\n"
+    length = 0
+    if loop < len(pyFile.loops):
+        for i,source in enumerate(pyFile.loops[loop]):
+            if source[1].strip() != "":
+                length += 1
+        weight = (100/float(length))
+    if loop < len(pyFile.loops):
+        for i,source in enumerate(pyFile.loops[loop]):
+            if source[1].strip() != "":
+                if source[2] != None:
+                    result += heatDot(i,random.randint(1,255), weight)
+                else:
+                    result += heatDot(i, -1, weight)
+    else:
+        result += heatDot(0,-1, 100.0)
+    result += "</div><br/>\n"
+
+    return result
+
+
+def heatDot(id, span, weight):
+    if span != -1:
+        return "<div onClick=\"gotoLine(%d)\" class=\"heatdot\" style=\"background: #FF%02x%02x; width: %.4f%%;\"></div>\n" % (id,span, span, weight)
+    else:
+        return "<div onClick=\"gotoLine(%d)\" class=\"heatdot\" style=\"background: #999999; width: %.4f%%;\"></div>\n" % (id,weight)
+
+
 def buildInnerTable(pyFile,loop):
     result = "            <tr>\n"
     result += "                <th>Python</th><th>IR CODE</th>\n"
@@ -37,7 +67,7 @@ def buildInnerTable(pyFile,loop):
     if len(pyFile.loops) > loop:
         for i,source in enumerate(pyFile.loops[loop]):
             if source[1].strip() != "":
-                result +=  "            <tr>\n"
+                result +=  "            <tr id=\"source%d\">\n" % (i)
                 if source[2] != None:
                     result +=  "                <td class=\"python\">\n"
                     result += highlight(source[1], PythonLexer(), HtmlFormatter())
@@ -94,6 +124,9 @@ def buildPage(pyFile,selected=0):
     result += "</div>\n"
     result += "<div id=\"fileContainer\">\n"
     result += buildLoopSelector(pyFile, selected)
+    result += "<div id=\"heatContainer\">\n"
+    result += buildHeatMap(pyFile,selected)
+    result += "</div>\n"
     result += buildTable(pyFile,selected)
     result += "</div>\n"
     result += buildFooter()

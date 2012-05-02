@@ -22,7 +22,7 @@ class Server:
         else:
             pyFile = self.listing.index[base64.b64decode(fileName)] #decode
         loopID = int(flask.request.args['loopID'])
-        d = {"html": buildHTML.buildInnerTable(pyFile,loopID)}
+        d = {"html": buildHTML.buildInnerTable(pyFile,loopID), "heat": buildHTML.buildHeatMap(pyFile,loopID)}
         return flask.jsonify(d)
 
     def expansion(self):
@@ -55,7 +55,8 @@ class Server:
         selectionDiv = selectHTML.buildSelectionDiv(pyFile)
         loopsDiv =  buildHTML.buildLoopSelector(pyFile,0)
         tableDiv =  buildHTML.buildTable(pyFile,0)
-        fileDiv = loopsDiv +"<br/>\n" + tableDiv
+        heatDiv = "<div id=\"heatContainer\">"+buildHTML.buildHeatMap(pyFile,0)+"</div>\n"
+        fileDiv = loopsDiv +"<br/>\n" + heatDiv + tableDiv
         d = {'path': selectionDiv,'select': buildHTML.buildSelectedBanner(pyFile),
                 'file':fileDiv}
         return flask.jsonify(d)
@@ -72,7 +73,7 @@ def main():
     app.route("/expansion")(server.expansion)
     app.route("/directory")(server.getDirectory)
     app.route("/getFile")(server.getFile)
-    app.run(debug=True)
+    app.run("0.0.0.0",debug=True)
 
 if __name__ == "__main__":
     main()
