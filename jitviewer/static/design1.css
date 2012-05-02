@@ -1,0 +1,250 @@
+body
+{
+  background-color: lightgrey;
+}
+
+#main
+{
+    width:100%;
+    border-collapse:collapse;
+}
+#main
+{
+  width:80%;
+}
+#main td, #main th 
+{
+    font-size:1.1em;
+    border:1px solid #98bf21;
+    padding:3px 7px 2px 7px;
+}
+#main th 
+{
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#A7C942;
+    color:#ffffff;
+}
+#main tr
+{
+  width: 80%;
+}
+#main tr.alt td 
+{
+    color:#000000;
+    background-color:#EAF2D3;
+}
+#main td
+{
+  border-width: 2px;
+  background-color: white;
+}
+#main td.python
+{
+    width:40%;
+    font-family:"Courier New", Courier, Monospace;
+}
+#main td.python.grey
+{
+   color: grey;
+}
+
+#main td.ircode
+{
+    width:60%;
+}
+#main td.ircode.grey
+{
+   color: grey;
+}
+#main td.expandin
+{
+  padding: 10px 0px 0px 20px;
+}
+
+.heatmap
+{
+  border: 1px solid #000;
+  width: 80%;
+}
+
+.heatdot
+{
+  height: 20px;
+  display: inline-block;
+  padding: 0px;
+  margin-bottom: -4px;
+  margin-right: -5px;
+   
+}
+.pathObj
+{
+  position: absolute;
+  left: 350px;
+  top: 10px;
+  border-style:solid;
+  border-width:2px;
+  border-color: #A7C942;
+  height: 145px;
+  padding: 5px;
+  background-color:#A7C942;
+  width: 70%;
+}
+#main a.selectedexpand
+{
+  color: red;
+}
+.path
+{
+  width: 180px;
+  height: 150px;
+  display: inline-block;
+  border-style:solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  position: relative;
+  margin: 0px;
+  margin-right: -6px;
+  margin-top: -14px;
+  top: 10px;
+  vertical-align:top; 
+  overflow:auto;
+  background-color: #EBF0FF;
+}
+
+.file
+{
+  width: 100%;
+  padding-left: 5px;
+  background-color: #E0EBFF;
+}
+
+.file:hover
+{
+  background-color: #C2D6FF;
+}
+
+.selected
+{
+   background-color: #C2D6FF;
+}
+
+.selected:hover
+{
+   background-color: #C2D6FF;
+}
+
+.directory
+{
+  padding-left: 5px;
+  background-color: #D6F5D6;
+}
+
+.directory:hover
+{
+  background-color: #ADEBAD;
+}
+
+.dirselected
+{
+  background-color: #99FF99
+}
+
+#name
+{
+  width: 78.8%;
+  background-color: #EBF0FF;
+  padding: 4px;
+  padding-left: 10px;
+  color: black;
+}
+
+#imagelogo
+{
+  width: 400px;
+  height: 150px;
+}
+.loop
+{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: lightyellow;
+  padding: 4px;
+  padding-left: 10px;
+  border-color: black;
+  border-style:solid;
+  border-width:1px;
+}
+.loop.selected
+{
+  background-color: #FFD1FF;
+}
+.loop:hover
+{
+   background-color: pink;
+}
+.loop.selected:hover
+{
+   background-color: #FFD1FF;
+}
+#expand
+{
+  width:100%;
+  border-collapse:collapse;
+}
+#expand td, #expand th 
+{
+    font-size:1.1em;
+    border:1px solid #ADC2FF;
+    padding:3px 7px 2px 7px;
+}
+#expand th 
+{
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#ADC2FF;
+    color:#ffffff;
+}
+#expand tr
+{
+  width: 80%;
+}
+#expand tr.alt td 
+{
+    color:#000000;
+    background-color:#EAF2D3;
+}
+#expand td
+{
+  border-width: 2px;
+  background-color: #F2F2F2;
+}
+#expand span
+{
+}
+#expand .plus
+{
+  background-color: lightgreen;
+}
+#expand .minus
+{
+  background-color: #FF9999;
+}
+#expand .empty
+{
+  background-color: #F0B2FF;
+}
+#expand .asm
+{
+    font-family:"Courier New", Courier, Monospace;
+}
+
+#expand .loop.immute:hover
+{
+  background-color: #FFD1FF;
+}
