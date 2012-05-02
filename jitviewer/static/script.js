@@ -1,6 +1,39 @@
+$(document).ready(function() {
+     heatMapper();
+     setup();
+});
+
 var glob_bridge_state = {
     file: 'default'
 };
+
+function heatMapper()
+{
+    $('.loop').each(function(index) {
+        var opac = $(this).children('.weight').html();
+        $(this).fadeTo('slow', opac);
+   });
+}
+
+function setup()
+{   
+    $('.ircode a').click( function() {   
+        $(this).parent().find("a").removeClass("ass").addClass("tinyass");
+        $(this).removeClass("tinyass");
+        $(this).addClass("ass");
+     });
+    $('.full').hide(function (){
+        
+     });
+     $('.full').click(function() {
+        $(this).hide("slow");
+        $(this).parent().children('.brief').show("slow");
+     });
+     $('.brief').click(function() {
+        $(this).hide("slow");
+        $(this).parent().children('.full').show("slow");
+     });
+}
 
 function loop(loop)
 {
@@ -10,7 +43,9 @@ function loop(loop)
     $.getJSON('/loop',glob_bridge_state, function(arg) {
         $('#main').html(arg.html);
         $('#heatContainer').html(arg.heat);
+        setup();
     });
+    
 }
 
 function expansion(loop, line, chunk)
@@ -23,8 +58,21 @@ function expansion(loop, line, chunk)
     };
     $.getJSON('/expansion', requestVar, function(arg) {
         $("#line"+line).html(arg.html);
+        $('#expand th').click( function() {
+            $(this).parent().parent().parent().parent().hide();
+            restore(line);
+        });
         $("#line"+line).show();
+        var position = $("#line" + line).position();
+
+        scroll(0,position.top-200);
     });
+}
+
+function restore(line)
+{
+    $('#source'+line+' .ircode a').removeClass("ass");
+    $('#source'+line+' .ircode a').removeClass("tinyass");
 }
 
 function viewAsm(asmID,asmID2)
@@ -68,13 +116,18 @@ function selectFile(base64File)
         $('#pathContainer').html(arg.path);
         $('#bannerContainer').html(arg.select);
         $('#fileContainer').html(arg.file);
+        setup();
+        heatMapper();
     });
+    
 
 }
 
 function gotoLine(line)
 {
-    $.scrollTo($("#source-" + line), {axis:'y'});
+    var position = $("#source" + line).position();
+    scroll(0,position.top);
 }
+
 
 

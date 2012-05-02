@@ -10,13 +10,17 @@ class PopulatedListing(directoryIndex.Directory):
         self.index = self.getSearchable()
         self.indexDir = self.getSearchableDir()
         self.other = []
-        self.default = os.path.abspath(sources[0][0])
+        for source in sources:
+            if source[0] != None:
+                self.default = os.path.abspath(source[0])
+                break
         for filename,source in sources:
-            raw_fn = os.path.abspath(filename)
-            pyF = self.index.get(raw_fn,None)
-            if pyF != None:
-                pyF.addLoop(source)
-            else:
-                self.other.append(source)
+            if filename != None:
+                raw_fn = os.path.abspath(filename)
+                pyF = self.index.get(raw_fn,None)
+                if pyF != None:
+                    pyF.addLoop(source)
+                else:
+                    self.other.append(source)
 
 

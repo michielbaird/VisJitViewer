@@ -11,22 +11,26 @@ import random
 
 
 def buildHeader():
-    return file("templates/header.html","r").read()
+    return file("/home/mbaird/git/VisJitViewer/jitviewer/templates/header.html","r").read()
 
 def buildFooter():
-    return file("templates/footer.html","r").read()
+    return file("/home/mbaird/git/VisJitViewer/jitviewer/templates/footer.html","r").read()
 
 def buildSelectedBanner(pyFile):
     return "<br/><div id=\"name\"><strong>File:</strong> %s</div><br/>\n" % pyFile.filename.split("/")[-1]
+
+def loopWeight(weight):
+    return "<div class=\"weight\" style=\"display: none;\">%.2f</div>" % (weight)
 
 def buildLoopSelector(pyFile, selected):
     result = "<div id=\"loops\">\n"
     result += "Loops: "
     for i, loop in enumerate(pyFile.loops):
         if i == selected:
-            result += "<div class=\"loop selected\" id=\"%d\" onClick=\"loop(%d)\">%d</div>\n" % (i,i,i+1)
+            result += "<div class=\"loop selected\" id=\"%d\" onClick=\"loop(%d)\">%d%s</div>\n" % (i,i,i+1,loopWeight(random.random()))
         else:
-            result += "<div class=\"loop\" id=\"%d\" onClick=\"loop(%d)\">%d</div>\n" % (i,i,i+1)
+            result += "<div class=\"loop\" id=\"%d\" onClick=\"loop(%d)\">%d%s</div>\n" % (i,i,i+1,loopWeight(random.random()))
+
     result += "</div><br/>\n"
     return result
 
@@ -54,14 +58,14 @@ def buildHeatMap(pyFile,loop):
 
 def heatDot(id, span, weight):
     if span != -1:
-        return "<div onClick=\"gotoLine(%d)\" class=\"heatdot\" style=\"background: #FF%02x%02x; width: %.4f%%;\"></div>\n" % (id,span, span, weight)
+        return "<div onClick=\"gotoLine(%d)\" class=\"heatdot\" style=\"background: #FF%02x%02x; width: %.16f%%;\"></div>\n" % (id,span, span, weight)
     else:
-        return "<div onClick=\"gotoLine(%d)\" class=\"heatdot\" style=\"background: #999999; width: %.4f%%;\"></div>\n" % (id,weight)
+        return "<div onClick=\"gotoLine(%d)\" class=\"heatdot\" style=\"background: #999999; width: %.16f%%;\"></div>\n" % (id,weight)
 
 
 def buildInnerTable(pyFile,loop):
     result = "            <tr>\n"
-    result += "                <th>Python</th><th>IR CODE</th>\n"
+    result += "                <th class=\"first\">Python</th><th>IR CODE</th>\n"
     result += "            </tr>\n"
     fileName = pyFile.filename
     if len(pyFile.loops) > loop:
@@ -77,14 +81,16 @@ def buildInnerTable(pyFile,loop):
                     result += "</td></tr><tr><td class=\"expandin\" id=\"line%d\" colspan=\"2\" style=\"display:None;\">" % i
                 else:
                     result +=  "                <td class=\"python grey\">\n"
-                    result += "<pre>" + source[1] + "</pre>\n"
+                    result += "<pre class=\"full\">" + source[1] + "</pre>\n"
+                    result += "<pre class=\"brief\">" + source[1].split("\n")[0] + " ..."+ "</pre>"
                     result += "                </td><td class=\"ircode grey\">\n"
                     result += "NOT JITTED\n"
                 result += "                </td>\n"
                 result += "            </tr>\n"
     else:
         result +=  "                <td class=\"python grey\">\n"
-        result += "<pre>" + file(fileName).read() + "</pre>\n"
+        result += "<pre class=\"full\">" + file(fileName).read() + "</pre>\n"
+        result += "<pre class=\"brief\">" + file(fileName).read().split("\n")[0] +" ..." + "</pre>\n"
         result += "                </td><td class=\"ircode grey\">\n"
         result += "NOT JITTED\n"
         result += "                </td>\n"
@@ -107,10 +113,10 @@ def buildExpansion(pyFile,loop,line, chunk):
         if asm != None:
             asmID = "%dA%dA%dA%s"  % (loop,line,chunk,i)
             asmID2 = "%dB%dB%dB%s"  % (loop,line,chunk,i)
-            result += "<tr><td class=\"plus\" id=\"%s\" onClick=\"viewAsm(\'%s\',\'%s\')\">+</td><td>%s</td></tr>\n" % (asmID2,asmID,asmID2,op)
-            result += "<tr class=\"asm\" id=\"%s\" style=\"display : None;\"><td class=\"empty\"></td><td><pre>%s</pre></td></tr>\n" % (asmID,asm)
+            result += "<tr><td class=\"plus\" id=\"%s\" onClick=\"viewAsm(\'%s\',\'%s\')\">+</td><td class=\"rpy\">%s</td></tr>\n" % (asmID2,asmID,asmID2,op)
+            result += "<tr class=\"asm\" id=\"%s\" style=\"display : None;\"><td class=\"empty\"></td><td class=\"lolsm\"><pre>%s</pre></td></tr>\n" % (asmID,asm)
         else:
-            result += "<tr><td class=\"noasm\"></td><td>%s</td></tr>\n" % op
+            result += "<tr><td class=\"noasm\"></td><td class=\"rpy\">%s</td></tr>\n" % op
     result += "</table>\n"
     return result
 

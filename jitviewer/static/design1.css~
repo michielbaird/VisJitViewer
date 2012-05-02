@@ -2,15 +2,29 @@ body
 {
   background-color: lightgrey;
 }
-
-#main
+.brief
 {
-    width:100%;
-    border-collapse:collapse;
+    color: #333333;
 }
 #main
 {
+  font-family:"Courier New", Courier, Monospace;
   width:80%;
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+#main th.first
+{
+    width: 70%;
+}
+#main .highlight
+{
+    display: block;
+    overflow:auto;
+    height: 100%;
+    min-height:100%;
+    bottom: 0px;
+    position: relative
 }
 #main td, #main th 
 {
@@ -27,10 +41,6 @@ body
     background-color:#A7C942;
     color:#ffffff;
 }
-#main tr
-{
-  width: 80%;
-}
 #main tr.alt td 
 {
     color:#000000;
@@ -42,22 +52,39 @@ body
   background-color: white;
 }
 #main td.python
-{
-    width:40%;
+{    
+    width: 70%;
+    height: 100%;
+    min-height:100%;
     font-family:"Courier New", Courier, Monospace;
+    background-image:url('beige004.jpg');
 }
 #main td.python.grey
 {
-   color: grey;
+   color: black;
+   background-image:url('grey005.gif');
 }
 
 #main td.ircode
 {
-    width:60%;
+
+}
+#main td.ircode a
+{
+    -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.2s linear;
+}
+#main td.ircode a:hover,
+#main td.ircode a.glow {
+    text-shadow: 0px 0px 15px blue;
 }
 #main td.ircode.grey
 {
-   color: grey;
+   color: black;
+   background-image:url('grey005.gif');
 }
 #main td.expandin
 {
@@ -72,9 +99,11 @@ body
 
 .heatdot
 {
-  height: 10px;
+  height: 20px;
   display: inline-block;
   padding: 0px;
+  margin-bottom: -4px;
+  margin-right: -5px;
    
 }
 .pathObj
@@ -206,7 +235,7 @@ body
     padding-top:5px;
     padding-bottom:4px;
     background-color:#ADC2FF;
-    color:#ffffff;
+    color:#7D0000;
 }
 #expand tr
 {
@@ -228,21 +257,56 @@ body
 #expand .plus
 {
   background-color: lightgreen;
+  min-width: 2px;
+  width: 10px;
 }
 #expand .minus
 {
   background-color: #FF9999;
+  min-width: 2px;
+  width: 10px;
 }
 #expand .empty
 {
-  background-color: #F0B2FF;
+  background-color: #FF9999;
+  min-width: 2px;
+  width: 10px;
 }
 #expand .asm
 {
     font-family:"Courier New", Courier, Monospace;
+    background-color: black;
 }
-
+#expand .noasm
+{
+    background-color: #C2F0C2;
+}
+#expand .lolsm
+{
+    background-color: #FFDAF3;
+}
+#expand .rpy
+{
+    background-color: #C2F0C2;
+}
 #expand .loop.immute:hover
 {
   background-color: #FFD1FF;
 }
+.ass
+{
+    color: #7D0000;
+    font-size: 20px;
+    font-weight:bold;
+}
+.tinyass
+{
+    color: grey;
+    font-size: 12px;
+}
+#main a:hover,#expand th:hover,.loop,.heatdot,.minus,.plus,td.python, td.python.grey
+{
+    cursor:pointer;
+}
+
+
